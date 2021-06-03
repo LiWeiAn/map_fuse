@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cmr_msgs/srv/SignalTask.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module cmr_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " signals for something to start happening")
+    struct SignalTask_Request {
+      std_msgs::msg::Empty request;
+    };
+    struct SignalTask_Response {
+      std_msgs::msg::Empty response;
+    };
+  };
+};

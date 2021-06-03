@@ -1,0 +1,7 @@
+int8 node_id
+bool switch_on
+bool enable_voltage
+bool quick_stop
+bool enable_operation
+bool fault_reset
+bool halt

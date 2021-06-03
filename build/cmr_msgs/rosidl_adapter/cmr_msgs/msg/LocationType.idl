@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cmr_msgs/msg/LocationType.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cmr_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " PickUp" "\n"
+      " DropOff" "\n"
+      " Docking" "\n"
+      " AtoB" "\n"
+      " Door" "\n"
+      " ??")
+    struct LocationType {
+      std_msgs::msg::Header header;
+
+      string destination_type;
+
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

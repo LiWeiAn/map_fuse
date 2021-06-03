@@ -1,0 +1,19 @@
+[0.569s] Invoking command in '/home/vivian/map_fuse/build/person_detection': PYTHONPATH=/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vivian/map_fuse/install/person_detection --editable --build-directory /home/vivian/map_fuse/build/person_detection/build --no-deps install_data --install-dir /home/vivian/map_fuse/install/person_detection
+[0.921s] running develop
+[1.106s] running egg_info
+[1.106s] writing person_detection.egg-info/PKG-INFO
+[1.107s] writing dependency_links to person_detection.egg-info/dependency_links.txt
+[1.107s] writing entry points to person_detection.egg-info/entry_points.txt
+[1.107s] writing requirements to person_detection.egg-info/requires.txt
+[1.107s] writing top-level names to person_detection.egg-info/top_level.txt
+[1.156s] reading manifest file 'person_detection.egg-info/SOURCES.txt'
+[1.157s] writing manifest file 'person_detection.egg-info/SOURCES.txt'
+[1.214s] running build_ext
+[1.214s] Creating /home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages/person-detection.egg-link (link to .)
+[1.214s] Installing detection_node script to /home/vivian/map_fuse/install/person_detection/lib/person_detection
+[1.214s] Installing person_box script to /home/vivian/map_fuse/install/person_detection/lib/person_detection
+[1.214s] Installing sync script to /home/vivian/map_fuse/install/person_detection/lib/person_detection
+[1.214s] 
+[1.214s] Installed /home/vivian/map_fuse/build/person_detection
+[1.215s] running install_data
+[1.327s] Invoked command in '/home/vivian/map_fuse/build/person_detection' returned '0': PYTHONPATH=/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vivian/map_fuse/install/person_detection --editable --build-directory /home/vivian/map_fuse/build/person_detection/build --no-deps install_data --install-dir /home/vivian/map_fuse/install/person_detection

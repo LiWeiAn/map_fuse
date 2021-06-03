@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cmr_msgs/srv/MaxonControlword.srv
+// generated code does not contain a copyright notice
+
+
+module cmr_msgs {
+  module srv {
+    struct MaxonControlword_Request {
+      int8 node_id;
+
+      boolean switch_on;
+
+      boolean enable_voltage;
+
+      boolean quick_stop;
+
+      boolean enable_operation;
+
+      boolean fault_reset;
+
+      boolean halt;
+    };
+    struct MaxonControlword_Response {
+      boolean response;
+    };
+  };
+};

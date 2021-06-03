@@ -1,0 +1,231 @@
+[0.027s] Invoking command in '/home/vivian/map_fuse/build/cmr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/cmr_msgs -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/cmr_msgs
+[0.053s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.094s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.094s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.718s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[0.822s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.146s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.620s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.621s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.664s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.664s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.664s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.750s] -- Configuring done
+[1.844s] -- Generating done
+[1.848s] -- Build files have been written to: /home/vivian/map_fuse/build/cmr_msgs
+[1.858s] Invoked command in '/home/vivian/map_fuse/build/cmr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/cmr_msgs -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/cmr_msgs
+[1.863s] Invoking command in '/home/vivian/map_fuse/build/cmr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/cmr_msgs -- -j12 -l12
+[1.941s] [  1%] Built target cmr_msgs__cpp
+[1.946s] [ 12%] Built target cmr_msgs__rosidl_generator_c
+[1.977s] [ 24%] Built target cmr_msgs__rosidl_typesupport_cpp
+[1.978s] [ 35%] Built target cmr_msgs__rosidl_typesupport_introspection_cpp
+[1.979s] [ 47%] Built target cmr_msgs__rosidl_typesupport_c
+[1.984s] [ 58%] Built target cmr_msgs__rosidl_typesupport_introspection_c
+[1.986s] [ 70%] Built target cmr_msgs__rosidl_typesupport_fastrtps_cpp
+[2.041s] [ 81%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c
+[2.072s] [ 81%] Built target cmr_msgs
+[2.106s] [ 82%] Built target cmr_msgs__py
+[2.159s] [ 93%] Built target cmr_msgs__python
+[2.200s] [ 95%] Built target cmr_msgs__rosidl_typesupport_c__pyext
+[2.200s] [ 97%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.202s] [100%] Built target cmr_msgs__rosidl_typesupport_introspection_c__pyext
+[2.221s] Invoked command in '/home/vivian/map_fuse/build/cmr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/cmr_msgs -- -j12 -l12
+[2.401s] Invoking command in '/home/vivian/map_fuse/build/cmr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/cmr_msgs
+[2.413s] -- Install configuration: ""
+[2.413s] -- Execute custom install script
+[2.414s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/rosidl_interfaces/cmr_msgs
+[2.429s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__functions.h
+[2.443s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.h
+[2.455s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__type_support.h
+[2.466s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.h
+[2.476s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__functions.h
+[2.491s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.h
+[2.505s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__type_support.h
+[2.519s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__functions.h
+[2.535s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.h
+[2.545s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__type_support.h
+[2.555s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__functions.h
+[2.569s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.h
+[2.580s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__type_support.h
+[2.590s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__functions.h
+[2.600s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.h
+[2.611s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__type_support.h
+[2.624s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__functions.h
+[2.635s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.h
+[2.651s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__type_support.h
+[2.661s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.h
+[2.671s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.h
+[2.682s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.h
+[2.696s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.h
+[2.709s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.719s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.h
+[2.730s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__functions.h
+[2.741s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.h
+[2.751s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__type_support.h
+[2.762s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__functions.h
+[2.772s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.h
+[2.783s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__type_support.h
+[2.792s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.h
+[2.803s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.h
+[2.814s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.sh
+[2.824s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.dsv
+[2.839s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_c.h
+[2.852s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[2.862s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_c.h
+[2.876s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_c.h
+[2.887s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_c.h
+[2.901s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_c.h
+[2.914s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.931s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_c.h
+[2.957s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_c.so
+[2.972s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_cpp.hpp
+[2.985s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.996s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_cpp.hpp
+[3.006s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_cpp.hpp
+[3.017s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.032s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_cpp.hpp
+[3.047s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.057s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_cpp.hpp
+[3.068s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_cpp.hpp
+[3.080s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.096s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_c.h
+[3.109s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[3.122s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_c.h
+[3.138s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_c.h
+[3.151s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_c.h
+[3.162s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_c.h
+[3.177s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.191s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_c.h
+[3.206s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_c.h
+[3.221s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__builder.hpp
+[3.234s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.hpp
+[3.245s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__traits.hpp
+[3.259s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.hpp
+[3.274s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__builder.hpp
+[3.285s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.hpp
+[3.295s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__traits.hpp
+[3.311s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__builder.hpp
+[3.325s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.hpp
+[3.341s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__traits.hpp
+[3.356s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__builder.hpp
+[3.366s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.hpp
+[3.381s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__traits.hpp
+[3.395s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__builder.hpp
+[3.410s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.hpp
+[3.421s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__traits.hpp
+[3.431s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__builder.hpp
+[3.446s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.hpp
+[3.456s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__traits.hpp
+[3.470s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.hpp
+[3.482s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.hpp
+[3.492s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.hpp
+[3.502s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.hpp
+[3.512s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.hpp
+[3.523s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__builder.hpp
+[3.534s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.hpp
+[3.548s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__traits.hpp
+[3.563s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__builder.hpp
+[3.574s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.hpp
+[3.584s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__traits.hpp
+[3.598s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.hpp
+[3.613s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.hpp
+[3.628s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_cpp.hpp
+[3.640s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[3.653s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_cpp.hpp
+[3.663s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_cpp.hpp
+[3.678s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_cpp.hpp
+[3.692s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_cpp.hpp
+[3.703s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_cpp.hpp
+[3.718s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_cpp.hpp
+[3.729s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.sh
+[3.743s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.dsv
+[3.756s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/__init__.py
+[3.773s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/__init__.py
+[3.783s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_joint_state.py
+[3.798s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_lifting_mech.py
+[3.808s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_location_type.py
+[3.819s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_maxon_status.py
+[3.829s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_state_change.py
+[3.840s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/__init__.py
+[3.851s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_maxon_controlword.py
+[3.861s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_signal_task.py
+[3.872s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/__init__.py
+[3.883s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/_linear_move.py
+[3.894s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.904s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.915s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.926s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__python.so
+[3.937s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.idl
+[3.947s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.idl
+[3.959s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.idl
+[3.968s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.idl
+[3.979s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.idl
+[3.989s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.idl
+[4.000s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.idl
+[4.011s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.idl
+[4.022s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.msg
+[4.032s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.msg
+[4.043s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.msg
+[4.057s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.msg
+[4.068s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.msg
+[4.082s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.srv
+[4.093s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Request.msg
+[4.104s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Response.msg
+[4.119s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.srv
+[4.133s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Request.msg
+[4.147s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Response.msg
+[4.158s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.action
+[4.171s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/package_run_dependencies/cmr_msgs
+[4.184s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/parent_prefix_path/cmr_msgs
+[4.195s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.sh
+[4.210s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.dsv
+[4.222s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.sh
+[4.236s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.dsv
+[4.249s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.bash
+[4.260s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.sh
+[4.272s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.zsh
+[4.283s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.dsv
+[4.294s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.dsv
+[4.305s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/packages/cmr_msgs
+[4.317s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake-extras.cmake
+[4.328s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.339s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.349s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.363s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.375s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.388s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.402s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig.cmake
+[4.414s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig-version.cmake
+[4.424s] -- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.xml
+[4.436s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_generator_c.so
+[4.437s] -- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_generator_c.so" to ""
+[4.437s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_c.so
+[4.437s] -- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.438s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_c.so
+[4.438s] -- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_c.so" to ""
+[4.438s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_cpp.so
+[4.439s] -- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.439s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_cpp.so
+[4.440s] -- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_cpp.so" to ""
+[4.484s] Compiling '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/__init__.py'...
+[4.490s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport.cmake
+[4.490s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.490s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.491s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.491s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport.cmake
+[4.491s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.492s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cppExport.cmake
+[4.492s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.492s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.492s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport.cmake
+[4.493s] -- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.498s] Invoked command in '/home/vivian/map_fuse/build/cmr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/cmr_msgs

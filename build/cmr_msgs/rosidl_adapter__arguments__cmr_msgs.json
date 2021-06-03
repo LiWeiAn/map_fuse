@@ -1,0 +1,13 @@
+{
+  "package_name": "cmr_msgs",
+  "non_idl_tuples": [
+    "/home/vivian/map_fuse/src/cmr_msgs:msg/MaxonStatus.msg",
+    "/home/vivian/map_fuse/src/cmr_msgs:msg/JointState.msg",
+    "/home/vivian/map_fuse/src/cmr_msgs:msg/StateChange.msg",
+    "/home/vivian/map_fuse/src/cmr_msgs:msg/LiftingMech.msg",
+    "/home/vivian/map_fuse/src/cmr_msgs:msg/LocationType.msg",
+    "/home/vivian/map_fuse/src/cmr_msgs:srv/MaxonControlword.srv",
+    "/home/vivian/map_fuse/src/cmr_msgs:srv/SignalTask.srv",
+    "/home/vivian/map_fuse/src/cmr_msgs:action/LinearMove.action"
+  ]
+}

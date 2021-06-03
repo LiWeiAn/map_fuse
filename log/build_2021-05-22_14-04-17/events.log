@@ -1,0 +1,1012 @@
+[0.000000] (-) TimerEvent: {}
+[0.000994] (box_msgs) JobQueued: {'identifier': 'box_msgs', 'dependencies': OrderedDict()}
+[0.001576] (cmr_msgs) JobQueued: {'identifier': 'cmr_msgs', 'dependencies': OrderedDict()}
+[0.001618] (icp_pc) JobQueued: {'identifier': 'icp_pc', 'dependencies': OrderedDict()}
+[0.001655] (laser_geometry) JobQueued: {'identifier': 'laser_geometry', 'dependencies': OrderedDict()}
+[0.001690] (pc_projection) JobQueued: {'identifier': 'pc_projection', 'dependencies': OrderedDict()}
+[0.001726] (person_detection) JobQueued: {'identifier': 'person_detection', 'dependencies': OrderedDict()}
+[0.001760] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.001814] (serena_description) JobQueued: {'identifier': 'serena_description', 'dependencies': OrderedDict()}
+[0.001850] (pc_fuse) JobQueued: {'identifier': 'pc_fuse', 'dependencies': OrderedDict([('box_msgs', '/home/vivian/map_fuse/install/box_msgs')])}
+[0.001890] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict([('laser_geometry', '/home/vivian/map_fuse/install/laser_geometry')])}
+[0.001934] (box_msgs) JobStarted: {'identifier': 'box_msgs'}
+[0.027401] (laser_geometry) JobStarted: {'identifier': 'laser_geometry'}
+[0.035977] (cmr_msgs) JobStarted: {'identifier': 'cmr_msgs'}
+[0.045230] (icp_pc) JobStarted: {'identifier': 'icp_pc'}
+[0.054478] (pc_projection) JobStarted: {'identifier': 'pc_projection'}
+[0.065507] (person_detection) JobStarted: {'identifier': 'person_detection'}
+[0.079461] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.085428] (serena_description) JobStarted: {'identifier': 'serena_description'}
+[0.099353] (-) TimerEvent: {}
+[0.100624] (box_msgs) JobProgress: {'identifier': 'box_msgs', 'progress': 'cmake'}
+[0.101382] (box_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/box_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/box_msgs'], 'cwd': '/home/vivian/map_fuse/build/box_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/box_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.109275] (laser_geometry) JobProgress: {'identifier': 'laser_geometry', 'progress': 'cmake'}
+[0.109541] (laser_geometry) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/laser_geometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/laser_geometry'], 'cwd': '/home/vivian/map_fuse/build/laser_geometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/laser_geometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.115246] (cmr_msgs) JobProgress: {'identifier': 'cmr_msgs', 'progress': 'cmake'}
+[0.115871] (cmr_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/cmr_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/cmr_msgs'], 'cwd': '/home/vivian/map_fuse/build/cmr_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/cmr_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.120507] (icp_pc) JobProgress: {'identifier': 'icp_pc', 'progress': 'cmake'}
+[0.122506] (icp_pc) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/icp_pc', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/icp_pc'], 'cwd': '/home/vivian/map_fuse/build/icp_pc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/icp_pc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.127011] (pc_projection) JobProgress: {'identifier': 'pc_projection', 'progress': 'cmake'}
+[0.128496] (pc_projection) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/pc_projection', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/pc_projection'], 'cwd': '/home/vivian/map_fuse/build/pc_projection', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/pc_projection'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.199636] (-) TimerEvent: {}
+[0.300429] (-) TimerEvent: {}
+[0.401126] (-) TimerEvent: {}
+[0.501678] (-) TimerEvent: {}
+[0.544477] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.544925] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/robot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/robot_bringup'], 'cwd': '/home/vivian/map_fuse/build/robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.555076] (box_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.557937] (box_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.558284] (box_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.558443] (box_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.558562] (box_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.558695] (laser_geometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.559102] (laser_geometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.559230] (laser_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.559333] (laser_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.559433] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.559535] (cmr_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.559683] (cmr_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.559786] (cmr_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.559890] (cmr_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.559993] (cmr_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.560103] (icp_pc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.560260] (icp_pc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.560375] (icp_pc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.560478] (icp_pc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.560579] (icp_pc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.562979] (pc_projection) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.565232] (pc_projection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.565408] (pc_projection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.565517] (pc_projection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.565622] (pc_projection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.566447] (serena_description) JobProgress: {'identifier': 'serena_description', 'progress': 'cmake'}
+[0.566730] (box_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.570315] (serena_description) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/serena_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/serena_description'], 'cwd': '/home/vivian/map_fuse/build/serena_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/serena_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.572240] (pc_projection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.574806] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.575869] (cmr_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577786] (icp_pc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.579431] (person_detection) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/vivian/map_fuse/install/person_detection', '--editable', '--build-directory', '/home/vivian/map_fuse/build/person_detection/build', '--no-deps', 'install_data', '--install-dir', '/home/vivian/map_fuse/install/person_detection'], 'cwd': '/home/vivian/map_fuse/build/person_detection', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'vivian', 'SSH_AGENT_PID': '1600', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/vivian', 'OLDPWD': '/home/vivian/map_fuse/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1407', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/vivian/map_fuse/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'vivian', 'JOURNAL_STREAM': '8:40926', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vivian', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674', 'INVOCATION_ID': 'd388f572eec643eba177673768eca19d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.263', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vivian/map_fuse/build/person_detection', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse'}, 'shell': False}
+[0.584721] (box_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.586098] (box_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.590266] (box_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.591535] (pc_projection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.592357] (pc_projection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.592546] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.593138] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.597415] (pc_projection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.597874] (icp_pc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.598196] (laser_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.598403] (icp_pc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.599267] (cmr_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.599827] (cmr_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.601678] (icp_pc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.601889] (-) TimerEvent: {}
+[0.604738] (cmr_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.640524] (robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.681251] (serena_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.702100] (-) TimerEvent: {}
+[0.739025] (robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.740906] (cmr_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.741394] (icp_pc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.742453] (cmr_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.742711] (icp_pc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.746954] (robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.755919] (pc_projection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.757568] (laser_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.757917] (pc_projection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.758108] (box_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.759696] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.760044] (box_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.772661] (serena_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.780870] (serena_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.802251] (-) TimerEvent: {}
+[0.873781] (robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.877675] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.893022] (cmr_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.893564] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.902773] (-) TimerEvent: {}
+[0.904894] (icp_pc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.907758] (serena_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.908595] (serena_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.912290] (pc_projection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.914297] (cmr_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.914991] (cmr_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.916699] (box_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.917999] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.918295] (cmr_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.919616] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.923117] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.929990] (pc_projection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.930426] (icp_pc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.930941] (pc_projection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.931201] (icp_pc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.936921] (box_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.938021] (box_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.941769] (box_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.952423] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.956631] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.959561] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.959920] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.974850] (laser_geometry) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.975285] (laser_geometry) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.977044] (pc_projection) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[0.982596] (icp_pc) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[0.992453] (box_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.992874] (box_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.993172] (person_detection) StdoutLine: {'line': b'running develop\n'}
+[1.002868] (-) TimerEvent: {}
+[1.005528] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.031231] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.031795] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.037068] (robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.038305] (serena_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.041196] (pc_projection) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.041480] (pc_projection) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.047942] (icp_pc) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.048289] (icp_pc) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.061591] (serena_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.062166] (serena_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.067294] (serena_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.103039] (-) TimerEvent: {}
+[1.148186] (pc_projection) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[1.173061] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.173763] (icp_pc) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[1.182907] (person_detection) StdoutLine: {'line': b'running egg_info\n'}
+[1.183283] (person_detection) StdoutLine: {'line': b'creating person_detection.egg-info\n'}
+[1.183465] (person_detection) StdoutLine: {'line': b'writing person_detection.egg-info/PKG-INFO\n'}
+[1.183783] (person_detection) StdoutLine: {'line': b'writing dependency_links to person_detection.egg-info/dependency_links.txt\n'}
+[1.183977] (person_detection) StdoutLine: {'line': b'writing entry points to person_detection.egg-info/entry_points.txt\n'}
+[1.184197] (person_detection) StdoutLine: {'line': b'writing requirements to person_detection.egg-info/requires.txt\n'}
+[1.184397] (person_detection) StdoutLine: {'line': b'writing top-level names to person_detection.egg-info/top_level.txt\n'}
+[1.186323] (person_detection) StdoutLine: {'line': b"writing manifest file 'person_detection.egg-info/SOURCES.txt'\n"}
+[1.191503] (robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.194194] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203251] (-) TimerEvent: {}
+[1.204944] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.206290] (pc_projection) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.208060] (serena_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.209680] (serena_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.230951] (icp_pc) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.237982] (person_detection) StdoutLine: {'line': b"reading manifest file 'person_detection.egg-info/SOURCES.txt'\n"}
+[1.239179] (person_detection) StdoutLine: {'line': b"writing manifest file 'person_detection.egg-info/SOURCES.txt'\n"}
+[1.271038] (cmr_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.286121] (pc_projection) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.289801] (box_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.296544] (person_detection) StdoutLine: {'line': b'running build_ext\n'}
+[1.296991] (person_detection) StdoutLine: {'line': b'Creating /home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages/site.py\n'}
+[1.300536] (person_detection) StdoutLine: {'line': b'Creating /home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages/person-detection.egg-link (link to .)\n'}
+[1.301747] (person_detection) StdoutLine: {'line': b'Installing detection_node script to /home/vivian/map_fuse/install/person_detection/lib/person_detection\n'}
+[1.302056] (person_detection) StdoutLine: {'line': b'Installing person_box script to /home/vivian/map_fuse/install/person_detection/lib/person_detection\n'}
+[1.302267] (person_detection) StdoutLine: {'line': b'Installing sync script to /home/vivian/map_fuse/install/person_detection/lib/person_detection\n'}
+[1.302464] (person_detection) StdoutLine: {'line': b'\n'}
+[1.302612] (person_detection) StdoutLine: {'line': b'Installed /home/vivian/map_fuse/build/person_detection\n'}
+[1.302867] (person_detection) StdoutLine: {'line': b'running install_data\n'}
+[1.303042] (person_detection) StdoutLine: {'line': b'creating /home/vivian/map_fuse/install/person_detection/share/ament_index\n'}
+[1.303190] (person_detection) StdoutLine: {'line': b'creating /home/vivian/map_fuse/install/person_detection/share/ament_index/resource_index\n'}
+[1.303320] (-) TimerEvent: {}
+[1.303776] (person_detection) StdoutLine: {'line': b'creating /home/vivian/map_fuse/install/person_detection/share/ament_index/resource_index/packages\n'}
+[1.303928] (person_detection) StdoutLine: {'line': b'copying resource/person_detection -> /home/vivian/map_fuse/install/person_detection/share/ament_index/resource_index/packages\n'}
+[1.304047] (person_detection) StdoutLine: {'line': b'copying package.xml -> /home/vivian/map_fuse/install/person_detection/share/person_detection\n'}
+[1.307190] (cmr_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.316624] (icp_pc) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.318299] (laser_geometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.323085] (box_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.334535] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.351749] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.352421] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.355332] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.357600] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.360890] (laser_geometry) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.365354] (serena_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.367493] (cmr_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.370684] (box_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.382697] (serena_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.383203] (box_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.383594] (serena_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.386385] (person_detection) CommandEnded: {'returncode': 0}
+[1.389697] (serena_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.389932] (pc_projection) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.390445] (pc_projection) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.390680] (pc_projection) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.391019] (pc_projection) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.391151] (pc_projection) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.391275] (pc_projection) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.391399] (pc_projection) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.391524] (pc_projection) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.391647] (pc_projection) StdoutLine: {'line': b'\n'}
+[1.393656] (pc_projection) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.393891] (pc_projection) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.394018] (pc_projection) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.394122] (pc_projection) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.394226] (pc_projection) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.395896] (pc_projection) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.396085] (pc_projection) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.396179] (pc_projection) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.396267] (pc_projection) StdoutLine: {'line': b'\n'}
+[1.396355] (pc_projection) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.396465] (pc_projection) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.396557] (pc_projection) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.396645] (pc_projection) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.396734] (pc_projection) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.396822] (pc_projection) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.396910] (pc_projection) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.397123] (pc_projection) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.397212] (pc_projection) StdoutLine: {'line': b'\n'}
+[1.397298] (pc_projection) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.397385] (pc_projection) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.397470] (pc_projection) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.397556] (pc_projection) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.397643] (pc_projection) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.397729] (pc_projection) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.397815] (pc_projection) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.397899] (pc_projection) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.397985] (pc_projection) StdoutLine: {'line': b'\n'}
+[1.403470] (-) TimerEvent: {}
+[1.411882] (robot_bringup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.412826] (robot_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.416875] (person_detection) JobEnded: {'identifier': 'person_detection', 'rc': 0}
+[1.425938] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.431404] (pc_projection) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.432665] (serena_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.432951] (serena_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.438039] (pc_projection) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.438439] (pc_projection) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.438567] (pc_projection) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[1.439162] (icp_pc) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.439518] (icp_pc) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.439650] (icp_pc) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.439770] (icp_pc) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.439883] (icp_pc) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.439997] (icp_pc) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.440109] (icp_pc) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.440223] (icp_pc) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.440336] (icp_pc) StdoutLine: {'line': b'\n'}
+[1.441088] (icp_pc) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.441280] (icp_pc) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.441404] (icp_pc) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.441528] (icp_pc) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.441654] (icp_pc) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.441777] (icp_pc) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.441903] (icp_pc) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.442030] (icp_pc) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.442154] (icp_pc) StdoutLine: {'line': b'\n'}
+[1.442438] (icp_pc) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.442573] (icp_pc) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.442720] (icp_pc) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.442882] (icp_pc) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.443003] (icp_pc) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.443244] (icp_pc) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.443384] (icp_pc) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.443527] (icp_pc) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.443670] (icp_pc) StdoutLine: {'line': b'\n'}
+[1.443917] (icp_pc) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.444044] (icp_pc) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.444173] (icp_pc) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.444306] (icp_pc) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.444427] (icp_pc) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.444555] (icp_pc) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.444685] (icp_pc) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.444816] (icp_pc) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.444943] (icp_pc) StdoutLine: {'line': b'\n'}
+[1.445129] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.449738] (laser_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.451639] (pc_projection) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.459001] (pc_projection) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.459468] (pc_projection) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.459652] (pc_projection) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[1.459813] (pc_projection) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.460005] (pc_projection) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.463062] (laser_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.484491] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.484897] (pc_projection) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[1.485100] (pc_projection) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.489298] (icp_pc) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.491037] (cmr_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.493511] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.496244] (icp_pc) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.496656] (icp_pc) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.496782] (icp_pc) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[1.500070] (pc_projection) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.503633] (-) TimerEvent: {}
+[1.505954] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.506682] (pc_projection) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.506947] (pc_projection) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.507779] (pc_projection) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[1.511382] (icp_pc) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.516702] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.517676] (icp_pc) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.518097] (icp_pc) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.518242] (icp_pc) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[1.518401] (icp_pc) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.519168] (icp_pc) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.519844] (box_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.521893] (pc_projection) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.528164] (pc_projection) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.528541] (pc_projection) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.528743] (pc_projection) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[1.545025] (cmr_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.545822] (icp_pc) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[1.546209] (icp_pc) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.553686] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.557991] (icp_pc) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.563426] (icp_pc) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.563878] (icp_pc) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.564047] (icp_pc) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[1.572256] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.577062] (box_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.577429] (icp_pc) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.584684] (icp_pc) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.585078] (icp_pc) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.585224] (icp_pc) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[1.585431] (pc_projection) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[1.585606] (pc_projection) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.592329] (pc_projection) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.598633] (pc_projection) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.603737] (-) TimerEvent: {}
+[1.605204] (pc_projection) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.605424] (pc_projection) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.605603] (pc_projection) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[1.607591] (laser_geometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.632175] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.634391] (pc_projection) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.635110] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.637113] (pc_projection) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.637566] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.639745] (pc_projection) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.640170] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.642127] (pc_projection) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.642641] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.644722] (pc_projection) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.645304] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.645592] (icp_pc) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[1.645769] (icp_pc) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.647668] (pc_projection) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.648141] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.648565] (pc_projection) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[1.648919] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.649338] (pc_projection) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[1.649596] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.651320] (pc_projection) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.651829] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.653381] (pc_projection) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.653685] (icp_pc) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.653980] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.655664] (pc_projection) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.656145] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.657716] (pc_projection) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.658421] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.658687] (icp_pc) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.659724] (laser_geometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.660125] (pc_projection) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.660830] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.662375] (pc_projection) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.662994] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.663960] (icp_pc) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.664194] (icp_pc) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.664343] (icp_pc) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[1.664599] (pc_projection) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.665300] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.666901] (pc_projection) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.667556] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.669107] (pc_projection) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.669727] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.671529] (pc_projection) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.672311] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.673982] (pc_projection) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.674498] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.674999] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.676404] (pc_projection) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.677940] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.678449] (pc_projection) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[1.678987] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.679572] (pc_projection) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[1.679944] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.681640] (pc_projection) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.682277] (pc_projection) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.684057] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.684426] (pc_projection) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.685579] (icp_pc) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.685929] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.686162] (pc_projection) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[1.687994] (icp_pc) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.688331] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.688766] (pc_projection) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.689739] (icp_pc) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.690087] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.690512] (robot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.691806] (icp_pc) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.692208] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.693809] (icp_pc) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.694216] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.695817] (icp_pc) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.696273] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.696690] (icp_pc) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[1.697055] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.697483] (icp_pc) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[1.697757] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.699416] (icp_pc) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.699964] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.701546] (icp_pc) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.702143] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.703851] (-) TimerEvent: {}
+[1.704263] (icp_pc) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.704687] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.706660] (icp_pc) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.707474] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.709111] (icp_pc) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.709799] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.711358] (box_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.711633] (icp_pc) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.712339] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.714021] (icp_pc) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.714756] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.716521] (icp_pc) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.717218] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.719053] (icp_pc) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.719703] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.721450] (icp_pc) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.722295] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.723966] (serena_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.724731] (icp_pc) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.725541] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.727782] (robot_bringup) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[1.728186] (icp_pc) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.730335] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.730657] (pc_projection) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.731165] (pc_projection) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.731548] (icp_pc) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[1.731959] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.732276] (icp_pc) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[1.732768] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.735605] (icp_pc) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.736458] (icp_pc) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.738479] (icp_pc) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.741289] (icp_pc) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[1.744071] (icp_pc) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.759221] (serena_description) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[1.762020] (cmr_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.779413] (cmr_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[1.794248] (laser_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.797201] (icp_pc) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.798010] (icp_pc) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.803997] (-) TimerEvent: {}
+[1.806594] (box_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.818121] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.830687] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.861494] (box_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.881442] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.890016] (serena_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.892348] (serena_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.893548] (serena_description) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/serena_description\n'}
+[1.899543] (serena_description) CommandEnded: {'returncode': 0}
+[1.900309] (serena_description) JobProgress: {'identifier': 'serena_description', 'progress': 'build'}
+[1.901380] (serena_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivian/map_fuse/build/serena_description', '--', '-j12', '-l12'], 'cwd': '/home/vivian/map_fuse/build/serena_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/serena_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[1.904251] (-) TimerEvent: {}
+[1.904497] (laser_geometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.906302] (laser_geometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.908138] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.953743] (robot_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.962583] (serena_description) CommandEnded: {'returncode': 0}
+[1.993317] (serena_description) JobProgress: {'identifier': 'serena_description', 'progress': 'install'}
+[2.002069] (robot_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.004389] (-) TimerEvent: {}
+[2.010939] (serena_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivian/map_fuse/build/serena_description'], 'cwd': '/home/vivian/map_fuse/build/serena_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/serena_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[2.017051] (pc_projection) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.021314] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.021683] (laser_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.023262] (serena_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.024228] (serena_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.025583] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/actuator_magnet_housing.STL\n'}
+[2.039407] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/base_link.STL\n'}
+[2.049782] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/batteries.STL\n'}
+[2.059702] (pc_projection) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.061854] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/camera_left.STL\n'}
+[2.079255] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/camera_right.STL\n'}
+[2.088963] (icp_pc) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.095721] (box_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.096487] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/caster_left_link.STL\n'}
+[2.104517] (-) TimerEvent: {}
+[2.110363] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/caster_right_link.STL\n'}
+[2.120646] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.124444] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/depth_sensor_left.STL\n'}
+[2.127404] (icp_pc) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.129768] (laser_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.130081] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.132023] (pc_projection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.138477] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/depth_sensor_right.STL\n'}
+[2.141010] (pc_projection) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.152392] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/laser.STL\n'}
+[2.165787] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_depth_left_optical.STL\n'}
+[2.179082] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_depth_right_optical.STL\n'}
+[2.183746] (icp_pc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.193653] (icp_pc) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.193967] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_rgb_optical.STL\n'}
+[2.197961] (cmr_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.204655] (-) TimerEvent: {}
+[2.205019] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/linear_actuator.STL\n'}
+[2.207361] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.207661] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.207812] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.210018] (robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.211068] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.216072] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/motors.STL\n'}
+[2.227396] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/nanoscan.STL\n'}
+[2.239863] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_depth_left_optical.STL\n'}
+[2.253249] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_depth_right_optical.STL\n'}
+[2.265097] (pc_projection) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.265823] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_rgb_optical.STL\n'}
+[2.279228] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/shell.STL\n'}
+[2.292026] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/shell_collision.STL\n'}
+[2.304782] (-) TimerEvent: {}
+[2.305671] (pc_projection) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.306099] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.306519] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.306849] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/tracking_camera.STL\n'}
+[2.307128] (robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.308882] (laser_geometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.313213] (icp_pc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.316558] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/trolley.STL\n'}
+[2.327339] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/trolley_wheel.STL\n'}
+[2.338131] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/wheel_left_link.STL\n'}
+[2.349317] (icp_pc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.349686] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/wheel_right_link.STL\n'}
+[2.363271] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/pumba.urdf\n'}
+[2.375315] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/serena.urdf\n'}
+[2.387103] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/trolley_description.urdf\n'}
+[2.396866] (box_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.397656] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/package_run_dependencies/serena_description\n'}
+[2.405396] (robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.405655] (-) TimerEvent: {}
+[2.405827] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.408090] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/parent_prefix_path/serena_description\n'}
+[2.420458] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/ament_prefix_path.sh\n'}
+[2.432256] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/ament_prefix_path.dsv\n'}
+[2.443042] (pc_projection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.443297] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/path.sh\n'}
+[2.455282] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/path.dsv\n'}
+[2.458207] (icp_pc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.465240] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.bash\n'}
+[2.475706] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.476062] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.479105] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.sh\n'}
+[2.492323] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.zsh\n'}
+[2.501746] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.dsv\n'}
+[2.503012] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.505775] (-) TimerEvent: {}
+[2.511563] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/package.dsv\n'}
+[2.523951] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/packages/serena_description\n'}
+[2.534805] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/cmake/serena_descriptionConfig.cmake\n'}
+[2.536710] (box_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.542764] (icp_pc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.544525] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/cmake/serena_descriptionConfig-version.cmake\n'}
+[2.545235] (icp_pc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.546431] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.549079] (laser_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.554925] (serena_description) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/package.xml\n'}
+[2.560041] (pc_projection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.563283] (pc_projection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.564806] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.567137] (serena_description) CommandEnded: {'returncode': 0}
+[2.575129] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.577044] (robot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.583817] (box_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.585955] (box_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.606066] (-) TimerEvent: {}
+[2.617279] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.619387] (serena_description) JobEnded: {'identifier': 'serena_description', 'rc': 0}
+[2.630111] (box_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.630435] (box_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.630566] (box_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.630685] (box_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.639146] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.639461] (icp_pc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.660745] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.661135] (pc_projection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.661769] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.663884] (cmr_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.668995] (box_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.706224] (-) TimerEvent: {}
+[2.712170] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.712568] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.712709] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.712836] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.743668] (laser_geometry) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[2.751489] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.751863] (icp_pc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.752093] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.759548] (laser_geometry) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.772062] (pc_projection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.772429] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.776368] (laser_geometry) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[2.806361] (-) TimerEvent: {}
+[2.808536] (box_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.826188] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.826455] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.857253] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.857559] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.863638] (box_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.866929] (box_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/box_msgs\n'}
+[2.877942] (box_msgs) CommandEnded: {'returncode': 0}
+[2.881348] (box_msgs) JobProgress: {'identifier': 'box_msgs', 'progress': 'build'}
+[2.881494] (box_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivian/map_fuse/build/box_msgs', '--', '-j12', '-l12'], 'cwd': '/home/vivian/map_fuse/build/box_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/box_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[2.887679] (robot_bringup) StdoutLine: {'line': b'-- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)\n'}
+[2.906515] (-) TimerEvent: {}
+[2.912877] (cmr_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.924982] (icp_pc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.927030] (icp_pc) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.941570] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__cpp\x1b[0m\n'}
+[2.942533] (box_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.948361] (pc_projection) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.950243] (pc_projection) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.953951] (box_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.006637] (-) TimerEvent: {}
+[3.016843] (cmr_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.020762] (cmr_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/cmr_msgs\n'}
+[3.033997] (cmr_msgs) CommandEnded: {'returncode': 0}
+[3.035048] (cmr_msgs) JobProgress: {'identifier': 'cmr_msgs', 'progress': 'build'}
+[3.036638] (cmr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivian/map_fuse/build/cmr_msgs', '--', '-j12', '-l12'], 'cwd': '/home/vivian/map_fuse/build/cmr_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/cmr_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[3.101586] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__cpp\x1b[0m\n'}
+[3.106486] (cmr_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.106824] (-) TimerEvent: {}
+[3.114342] (cmr_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.178605] (icp_pc) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.206953] (-) TimerEvent: {}
+[3.248072] (pc_projection) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.274531] (box_msgs) StdoutLine: {'line': b'[  6%] Built target box_msgs__cpp\n'}
+[3.290067] (box_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.290386] (box_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.290629] (box_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.307067] (-) TimerEvent: {}
+[3.401725] (laser_geometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[3.402065] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.407178] (-) TimerEvent: {}
+[3.417025] (laser_geometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[3.420898] (box_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/box_msgs__rosidl_generator_c.dir/rosidl_generator_c/box_msgs/msg/detail/box__functions.c.o\x1b[0m\n'}
+[3.439276] (pc_projection) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[3.448951] (icp_pc) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[3.457213] (laser_geometry) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[3.460061] (pc_projection) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.466981] (laser_geometry) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.470716] (icp_pc) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.482248] (pc_projection) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.484628] (box_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libbox_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.495933] (icp_pc) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.507307] (-) TimerEvent: {}
+[3.549739] (box_msgs) StdoutLine: {'line': b'[ 22%] Built target box_msgs__rosidl_generator_c\n'}
+[3.567582] (box_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.569688] (box_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.595286] (laser_geometry) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.602676] (laser_geometry) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.603067] (laser_geometry) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.603318] (laser_geometry) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.607423] (-) TimerEvent: {}
+[3.609651] (laser_geometry) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.609908] (laser_geometry) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.613619] (laser_geometry) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.621109] (laser_geometry) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.621369] (laser_geometry) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.622901] (laser_geometry) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.629413] (laser_geometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.653491] (laser_geometry) StdoutLine: {'line': b'-- Generating done\n'}
+[3.657244] (laser_geometry) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/laser_geometry\n'}
+[3.675777] (laser_geometry) CommandEnded: {'returncode': 0}
+[3.676875] (laser_geometry) JobProgress: {'identifier': 'laser_geometry', 'progress': 'build'}
+[3.677452] (laser_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivian/map_fuse/build/laser_geometry', '--', '-j12', '-l12'], 'cwd': '/home/vivian/map_fuse/build/laser_geometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/laser_geometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[3.707582] (-) TimerEvent: {}
+[3.716973] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.724213] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.738574] (box_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/box_msgs/msg/box__type_support.cpp.o\x1b[0m\n'}
+[3.741311] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.743644] (box_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/box_msgs/msg/detail/box__type_support.cpp.o\x1b[0m\n'}
+[3.745251] (laser_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target laser2pc_node\x1b[0m\n'}
+[3.764379] (box_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/box_msgs/msg/detail/dds_fastrtps/box__type_support.cpp.o\x1b[0m\n'}
+[3.807694] (-) TimerEvent: {}
+[3.827761] (laser_geometry) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser2pc_node.dir/src/laser2pc.cpp.o\x1b[0m\n'}
+[3.907833] (-) TimerEvent: {}
+[3.944045] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.964357] (box_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/box_msgs/msg/box__type_support.cpp.o\x1b[0m\n'}
+[3.991844] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.007986] (-) TimerEvent: {}
+[4.012273] (box_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/box_msgs/msg/detail/box__type_support.c.o\x1b[0m\n'}
+[4.015963] (box_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.068804] (box_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libbox_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.084338] (box_msgs) StdoutLine: {'line': b'[ 51%] Built target box_msgs__rosidl_typesupport_c\n'}
+[4.108122] (-) TimerEvent: {}
+[4.120139] (box_msgs) StdoutLine: {'line': b'[ 51%] Built target box_msgs__rosidl_typesupport_introspection_c\n'}
+[4.176378] (pc_projection) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[4.195332] (pc_projection) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[4.208259] (-) TimerEvent: {}
+[4.255511] (pc_projection) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[4.262021] (pc_projection) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.0 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[4.264071] (box_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.274777] (icp_pc) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[4.279624] (box_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.292758] (icp_pc) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[4.308398] (-) TimerEvent: {}
+[4.331776] (box_msgs) StdoutLine: {'line': b'[ 58%] Built target box_msgs__rosidl_typesupport_cpp\n'}
+[4.352823] (icp_pc) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[4.353167] (robot_bringup) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[4.357643] (robot_bringup) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[4.360654] (icp_pc) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.0 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[4.376551] (box_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.398624] (box_msgs) StdoutLine: {'line': b'[ 61%] Built target box_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.408530] (-) TimerEvent: {}
+[4.508954] (-) TimerEvent: {}
+[4.545988] (box_msgs) StdoutLine: {'line': b'[ 61%] Built target box_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.559574] (box_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.609095] (-) TimerEvent: {}
+[4.649841] (robot_bringup) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (find_package):\n'}
+[4.650141] (robot_bringup) StderrLine: {'line': b'  By not providing "Findcmr_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.650287] (robot_bringup) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "cmr_msgs",\n'}
+[4.650427] (robot_bringup) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[4.650565] (robot_bringup) StderrLine: {'line': b'\n'}
+[4.650699] (robot_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by "cmr_msgs" with any\n'}
+[4.650891] (robot_bringup) StderrLine: {'line': b'  of the following names:\n'}
+[4.651021] (robot_bringup) StderrLine: {'line': b'\n'}
+[4.651160] (robot_bringup) StderrLine: {'line': b'    cmr_msgsConfig.cmake\n'}
+[4.651338] (robot_bringup) StderrLine: {'line': b'    cmr_msgs-config.cmake\n'}
+[4.651463] (robot_bringup) StderrLine: {'line': b'\n'}
+[4.651589] (robot_bringup) StderrLine: {'line': b'  Add the installation prefix of "cmr_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[4.651715] (robot_bringup) StderrLine: {'line': b'  "cmr_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[4.651856] (robot_bringup) StderrLine: {'line': b'  "cmr_msgs" provides a separate development package or SDK, be sure it has\n'}
+[4.651978] (robot_bringup) StderrLine: {'line': b'  been installed.\n'}
+[4.652113] (robot_bringup) StderrLine: {'line': b'\n'}
+[4.652249] (robot_bringup) StderrLine: {'line': b'\n'}
+[4.652383] (cmr_msgs) StdoutLine: {'line': b'[  2%] Built target cmr_msgs__cpp\n'}
+[4.652736] (robot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.652920] (robot_bringup) StdoutLine: {'line': b'See also "/home/vivian/map_fuse/build/robot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[4.653059] (robot_bringup) StdoutLine: {'line': b'See also "/home/vivian/map_fuse/build/robot_bringup/CMakeFiles/CMakeError.log".\n'}
+[4.663309] (robot_bringup) CommandEnded: {'returncode': 1}
+[4.666268] (cmr_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.668174] (cmr_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.668991] (cmr_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.695844] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 1}
+[4.709222] (-) TimerEvent: {}
+[4.809676] (-) TimerEvent: {}
+[4.848926] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.874214] (cmr_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/joint_state__functions.c.o\x1b[0m\n'}
+[4.875112] (cmr_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/maxon_status__functions.c.o\x1b[0m\n'}
+[4.875420] (cmr_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/state_change__functions.c.o\x1b[0m\n'}
+[4.875841] (cmr_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/lifting_mech__functions.c.o\x1b[0m\n'}
+[4.886781] (cmr_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/location_type__functions.c.o\x1b[0m\n'}
+[4.890020] (cmr_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/srv/detail/maxon_controlword__functions.c.o\x1b[0m\n'}
+[4.892156] (cmr_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/srv/detail/signal_task__functions.c.o\x1b[0m\n'}
+[4.903973] (cmr_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/action/detail/linear_move__functions.c.o\x1b[0m\n'}
+[4.909830] (-) TimerEvent: {}
+[4.976546] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.002055] (box_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/box_msgs/msg/detail/box__type_support_c.cpp.o\x1b[0m\n'}
+[5.009952] (-) TimerEvent: {}
+[5.069814] (cmr_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcmr_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.110080] (-) TimerEvent: {}
+[5.133506] (cmr_msgs) StdoutLine: {'line': b'[ 16%] Built target cmr_msgs__rosidl_generator_c\n'}
+[5.146725] (cmr_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.151564] (cmr_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.210209] (-) TimerEvent: {}
+[5.285956] (pc_projection) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.310341] (-) TimerEvent: {}
+[5.410818] (-) TimerEvent: {}
+[5.432863] (pc_projection) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.442928] (pc_projection) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.444787] (pc_projection) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vivian/map_fuse/src/pc_projection/include\n'}
+[5.445024] (pc_projection) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.454358] (pc_projection) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.454632] (pc_projection) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.459158] (pc_projection) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.470219] (pc_projection) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.470469] (pc_projection) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.472548] (pc_projection) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.480964] (pc_projection) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.510935] (-) TimerEvent: {}
+[5.611371] (-) TimerEvent: {}
+[5.620680] (icp_pc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.665285] (box_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.678967] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.707424] (cmr_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/maxon_status__type_support.cpp.o\x1b[0m\n'}
+[5.708898] (cmr_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/joint_state__type_support.cpp.o\x1b[0m\n'}
+[5.709201] (cmr_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/state_change__type_support.cpp.o\x1b[0m\n'}
+[5.711178] (cmr_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/lifting_mech__type_support.cpp.o\x1b[0m\n'}
+[5.711447] (-) TimerEvent: {}
+[5.715042] (pc_projection) StdoutLine: {'line': b'-- Generating done\n'}
+[5.719536] (cmr_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/location_type__type_support.cpp.o\x1b[0m\n'}
+[5.720819] (pc_projection) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/pc_projection\n'}
+[5.725237] (cmr_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/srv/maxon_controlword__type_support.cpp.o\x1b[0m\n'}
+[5.746053] (cmr_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/srv/signal_task__type_support.cpp.o\x1b[0m\n'}
+[5.758403] (pc_projection) JobEnded: {'identifier': 'pc_projection', 'rc': 'SIGINT'}
+[5.783904] (icp_pc) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.784886] (cmr_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/action/linear_move__type_support.cpp.o\x1b[0m\n'}
+[5.797310] (icp_pc) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.800888] (icp_pc) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vivian/map_fuse/src/icp_pc/include\n'}
+[5.801318] (icp_pc) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.811605] (-) TimerEvent: {}
+[5.814219] (icp_pc) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.814709] (icp_pc) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.820686] (icp_pc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.839287] (icp_pc) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.839834] (icp_pc) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.842841] (icp_pc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.852350] (icp_pc) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.879491] (box_msgs) StdoutLine: {'line': b'[ 70%] Built target box_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.911759] (-) TimerEvent: {}
+[5.948069] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs\x1b[0m\n'}
+[6.011909] (-) TimerEvent: {}
+[6.020196] (box_msgs) StdoutLine: {'line': b'[ 70%] Built target box_msgs\n'}
+[6.092096] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__py\x1b[0m\n'}
+[6.112063] (-) TimerEvent: {}
+[6.140747] (box_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.212210] (-) TimerEvent: {}
+[6.245176] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.312371] (-) TimerEvent: {}
+[6.325206] (cmr_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/maxon_status__type_support.cpp.o\x1b[0m\n'}
+[6.343944] (cmr_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/state_change__type_support.cpp.o\x1b[0m\n'}
+[6.348120] (cmr_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/joint_state__type_support.cpp.o\x1b[0m\n'}
+[6.359487] (icp_pc) StdoutLine: {'line': b'-- Generating done\n'}
+[6.365248] (icp_pc) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/icp_pc\n'}
+[6.374526] (cmr_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/lifting_mech__type_support.cpp.o\x1b[0m\n'}
+[6.397608] (icp_pc) JobEnded: {'identifier': 'icp_pc', 'rc': 'SIGINT'}
+[6.409037] (cmr_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/location_type__type_support.cpp.o\x1b[0m\n'}
+[6.412495] (-) TimerEvent: {}
+[6.418919] (cmr_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/srv/detail/maxon_controlword__type_support.cpp.o\x1b[0m\n'}
+[6.421399] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.422925] (cmr_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/srv/detail/signal_task__type_support.cpp.o\x1b[0m\n'}
+[6.441685] (cmr_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/action/detail/linear_move__type_support.cpp.o\x1b[0m\n'}
+[6.442012] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.499178] (cmr_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/maxon_status__type_support.cpp.o\x1b[0m\n'}
+[6.512646] (-) TimerEvent: {}
+[6.521473] (cmr_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/maxon_status__type_support.cpp.o\x1b[0m\n'}
+[6.580371] (cmr_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.612787] (-) TimerEvent: {}
+[6.614902] (cmr_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/joint_state__type_support.cpp.o\x1b[0m\n'}
+[6.712915] (-) TimerEvent: {}
+[6.747369] (cmr_msgs) StdoutLine: {'line': b'[ 41%] Built target cmr_msgs__rosidl_typesupport_cpp\n'}
+[6.767268] (cmr_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/state_change__type_support.cpp.o\x1b[0m\n'}
+[6.813073] (-) TimerEvent: {}
+[6.827977] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.843790] (cmr_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/lifting_mech__type_support.cpp.o\x1b[0m\n'}
+[6.861548] (cmr_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/maxon_status__type_support.c.o\x1b[0m\n'}
+[6.913241] (-) TimerEvent: {}
+[6.924124] (cmr_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/location_type__type_support.cpp.o\x1b[0m\n'}
+[6.956945] (cmr_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/joint_state__type_support.c.o\x1b[0m\n'}
+[6.982897] (cmr_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/state_change__type_support.c.o\x1b[0m\n'}
+[6.983349] (cmr_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o\x1b[0m\n'}
+[6.993495] (cmr_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/srv/maxon_controlword__type_support.cpp.o\x1b[0m\n'}
+[7.006074] (cmr_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/srv/signal_task__type_support.cpp.o\x1b[0m\n'}
+[7.013393] (-) TimerEvent: {}
+[7.031256] (cmr_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/lifting_mech__type_support.c.o\x1b[0m\n'}
+[7.049212] (cmr_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/location_type__type_support.c.o\x1b[0m\n'}
+[7.052245] (cmr_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/srv/detail/maxon_controlword__type_support.c.o\x1b[0m\n'}
+[7.056536] (cmr_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/action/linear_move__type_support.cpp.o\x1b[0m\n'}
+[7.067173] (cmr_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/state_change__type_support.cpp.o\x1b[0m\n'}
+[7.068366] (cmr_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/srv/detail/signal_task__type_support.c.o\x1b[0m\n'}
+[7.113567] (-) TimerEvent: {}
+[7.116071] (cmr_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/action/detail/linear_move__type_support.c.o\x1b[0m\n'}
+[7.129327] (cmr_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/lifting_mech__type_support.cpp.o\x1b[0m\n'}
+[7.132349] (box_msgs) StdoutLine: {'line': b'[ 74%] Built target box_msgs__py\n'}
+[7.142179] (cmr_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/location_type__type_support.cpp.o\x1b[0m\n'}
+[7.151039] (cmr_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/srv/detail/dds_fastrtps/maxon_controlword__type_support.cpp.o\x1b[0m\n'}
+[7.152467] (cmr_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/srv/detail/dds_fastrtps/signal_task__type_support.cpp.o\x1b[0m\n'}
+[7.156682] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__python\x1b[0m\n'}
+[7.164323] (cmr_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.181452] (cmr_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/action/detail/dds_fastrtps/linear_move__type_support.cpp.o\x1b[0m\n'}
+[7.207513] (box_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/box_msgs__python.dir/rosidl_generator_py/box_msgs/msg/_box_s.c.o\x1b[0m\n'}
+[7.213706] (-) TimerEvent: {}
+[7.222570] (cmr_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libcmr_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.276077] (cmr_msgs) StdoutLine: {'line': b'[ 67%] Built target cmr_msgs__rosidl_typesupport_c\n'}
+[7.284598] (cmr_msgs) StdoutLine: {'line': b'[ 67%] Built target cmr_msgs__rosidl_typesupport_introspection_c\n'}
+[7.313859] (-) TimerEvent: {}
+[7.340627] (cmr_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.404878] (box_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/box_msgs/libbox_msgs__python.so\x1b[0m\n'}
+[7.414036] (-) TimerEvent: {}
+[7.496411] (box_msgs) StdoutLine: {'line': b'[ 80%] Built target box_msgs__python\n'}
+[7.513385] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.514160] (-) TimerEvent: {}
+[7.517442] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.533522] (cmr_msgs) StdoutLine: {'line': b'[ 68%] Built target cmr_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.541507] (box_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.561631] (box_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.569311] (box_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.584739] (box_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.614314] (-) TimerEvent: {}
+[7.714810] (-) TimerEvent: {}
+[7.724946] (box_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.740224] (box_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.760521] (box_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.793511] (box_msgs) StdoutLine: {'line': b'[100%] Built target box_msgs__rosidl_typesupport_c__pyext\n'}
+[7.808490] (box_msgs) StdoutLine: {'line': b'[100%] Built target box_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.814952] (-) TimerEvent: {}
+[7.883651] (box_msgs) StdoutLine: {'line': b'[100%] Built target box_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.902472] (box_msgs) JobEnded: {'identifier': 'box_msgs', 'rc': 'SIGINT'}
+[7.915107] (-) TimerEvent: {}
+[8.015553] (-) TimerEvent: {}
+[8.058935] (cmr_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.115706] (-) TimerEvent: {}
+[8.203298] (cmr_msgs) StdoutLine: {'line': b'[ 70%] Built target cmr_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.215842] (-) TimerEvent: {}
+[8.221654] (cmr_msgs) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.315981] (-) TimerEvent: {}
+[8.416465] (-) TimerEvent: {}
+[8.517081] (-) TimerEvent: {}
+[8.617690] (-) TimerEvent: {}
+[8.718383] (-) TimerEvent: {}
+[8.819071] (-) TimerEvent: {}
+[8.919816] (-) TimerEvent: {}
+[9.020387] (-) TimerEvent: {}
+[9.120870] (-) TimerEvent: {}
+[9.221278] (-) TimerEvent: {}
+[9.236952] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.273903] (cmr_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/state_change__type_support_c.cpp.o\x1b[0m\n'}
+[9.275862] (cmr_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/location_type__type_support_c.cpp.o\x1b[0m\n'}
+[9.277143] (cmr_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/lifting_mech__type_support_c.cpp.o\x1b[0m\n'}
+[9.277395] (cmr_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/maxon_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.278109] (cmr_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/joint_state__type_support_c.cpp.o\x1b[0m\n'}
+[9.278341] (cmr_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/action/detail/linear_move__type_support_c.cpp.o\x1b[0m\n'}
+[9.279993] (cmr_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/srv/detail/signal_task__type_support_c.cpp.o\x1b[0m\n'}
+[9.280300] (cmr_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/srv/detail/maxon_controlword__type_support_c.cpp.o\x1b[0m\n'}
+[9.321423] (-) TimerEvent: {}
+[9.421931] (-) TimerEvent: {}
+[9.522390] (-) TimerEvent: {}
+[9.622845] (-) TimerEvent: {}
+[9.723244] (-) TimerEvent: {}
+[9.817639] (cmr_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.823368] (-) TimerEvent: {}
+[9.921686] (cmr_msgs) StdoutLine: {'line': b'[ 81%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.923461] (-) TimerEvent: {}
+[9.936518] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs\x1b[0m\n'}
+[9.952824] (cmr_msgs) StdoutLine: {'line': b'[ 81%] Built target cmr_msgs\n'}
+[9.966938] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__py\x1b[0m\n'}
+[9.979103] (cmr_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.023587] (-) TimerEvent: {}
+[10.123958] (-) TimerEvent: {}
+[10.224293] (-) TimerEvent: {}
+[10.324635] (-) TimerEvent: {}
+[10.424983] (-) TimerEvent: {}
+[10.525376] (-) TimerEvent: {}
+[10.625730] (-) TimerEvent: {}
+[10.726121] (-) TimerEvent: {}
+[10.827452] (-) TimerEvent: {}
+[10.927806] (-) TimerEvent: {}
+[11.028180] (-) TimerEvent: {}
+[11.128578] (-) TimerEvent: {}
+[11.229239] (-) TimerEvent: {}
+[11.329775] (-) TimerEvent: {}
+[11.430131] (-) TimerEvent: {}
+[11.452149] (cmr_msgs) StdoutLine: {'line': b'[ 82%] Built target cmr_msgs__py\n'}
+[11.469266] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__python\x1b[0m\n'}
+[11.499694] (cmr_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_maxon_status_s.c.o\x1b[0m\n'}
+[11.502555] (cmr_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/srv/_maxon_controlword_s.c.o\x1b[0m\n'}
+[11.503008] (cmr_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_joint_state_s.c.o\x1b[0m\n'}
+[11.503211] (cmr_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_location_type_s.c.o\x1b[0m\n'}
+[11.504503] (cmr_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_state_change_s.c.o\x1b[0m\n'}
+[11.506036] (cmr_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/action/_linear_move_s.c.o\x1b[0m\n'}
+[11.506274] (cmr_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_lifting_mech_s.c.o\x1b[0m\n'}
+[11.508396] (cmr_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/srv/_signal_task_s.c.o\x1b[0m\n'}
+[11.530285] (-) TimerEvent: {}
+[11.630693] (-) TimerEvent: {}
+[11.683466] (cmr_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cmr_msgs/libcmr_msgs__python.so\x1b[0m\n'}
+[11.730859] (-) TimerEvent: {}
+[11.742701] (cmr_msgs) StdoutLine: {'line': b'[ 93%] Built target cmr_msgs__python\n'}
+[11.751862] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.754330] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.757186] (cmr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.775304] (cmr_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.775724] (cmr_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.782017] (cmr_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.830985] (-) TimerEvent: {}
+[11.895727] (cmr_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.899993] (cmr_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.918030] (cmr_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.931122] (-) TimerEvent: {}
+[11.933683] (cmr_msgs) StdoutLine: {'line': b'[100%] Built target cmr_msgs__rosidl_typesupport_c__pyext\n'}
+[11.968122] (cmr_msgs) StdoutLine: {'line': b'[100%] Built target cmr_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[11.970195] (cmr_msgs) StdoutLine: {'line': b'[100%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.987761] (cmr_msgs) JobEnded: {'identifier': 'cmr_msgs', 'rc': 'SIGINT'}
+[12.031244] (-) TimerEvent: {}
+[12.099539] (laser_geometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser2pc_node\x1b[0m\n'}
+[12.131458] (-) TimerEvent: {}
+[12.231971] (-) TimerEvent: {}
+[12.332484] (-) TimerEvent: {}
+[12.356706] (laser_geometry) StdoutLine: {'line': b'[100%] Built target laser2pc_node\n'}
+[12.373404] (laser_geometry) JobEnded: {'identifier': 'laser_geometry', 'rc': 'SIGINT'}
+[12.384366] (pc_fuse) JobSkipped: {'identifier': 'pc_fuse'}
+[12.384705] (pointcloud_to_laserscan) JobSkipped: {'identifier': 'pointcloud_to_laserscan'}
+[12.384797] (-) EventReactorShutdown: {}

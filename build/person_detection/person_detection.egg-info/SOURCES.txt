@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+person_detection/__init__.py
+person_detection/detection_node.py
+person_detection/person_box.py
+person_detection/person_remove.py
+person_detection/sync.py
+person_detection.egg-info/PKG-INFO
+person_detection.egg-info/SOURCES.txt
+person_detection.egg-info/dependency_links.txt
+person_detection.egg-info/entry_points.txt
+person_detection.egg-info/requires.txt
+person_detection.egg-info/top_level.txt
+person_detection.egg-info/zip-safe
+resource/person_detection

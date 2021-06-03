@@ -1,0 +1,23 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+[01m[K/home/vivian/map_fuse/src/pc_fuse/src/remove_person.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::pcCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr, box_msgs::msg::Box_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/vivian/map_fuse/src/pc_fuse/src/remove_person.cpp:59:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbox_ymin[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   59 |         float [01;35m[Kbox_ymin[m[K = box->l;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vivian/map_fuse/src/pc_fuse/src/remove_person.cpp:61:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbox_ymax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   61 |         float [01;35m[Kbox_ymax[m[K = box->t;
+      |               [01;35m[K^~~~~~~~[m[K
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/vivian/map_fuse/src/pc_fuse/params'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

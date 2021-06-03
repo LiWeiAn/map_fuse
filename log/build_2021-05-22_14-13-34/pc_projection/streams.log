@@ -1,0 +1,28 @@
+[0.095s] Invoking command in '/home/vivian/map_fuse/build/pc_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_projection -- -j12 -l12
+[0.583s] [ 75%] Built target pc_proj_node
+[0.583s] [100%] Built target ex_proj_node
+[0.602s] Invoked command in '/home/vivian/map_fuse/build/pc_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_projection -- -j12 -l12
+[0.668s] Invoking command in '/home/vivian/map_fuse/build/pc_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_projection
+[0.684s] -- Install configuration: ""
+[0.689s] -- Execute custom install script
+[0.690s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/pc_proj_node
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/ex_proj_node
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/cam_4901.pcd
+[0.696s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/rs_pc_ex.pcd
+[0.697s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/package_run_dependencies/pc_projection
+[0.697s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/parent_prefix_path/pc_projection
+[0.697s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.sh
+[0.697s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.dsv
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.sh
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.dsv
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.bash
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.sh
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.zsh
+[0.698s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.dsv
+[0.698s] -- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.dsv
+[0.708s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/packages/pc_projection
+[0.708s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.708s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig.cmake
+[0.709s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig-version.cmake
+[0.717s] -- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.xml
+[0.758s] Invoked command in '/home/vivian/map_fuse/build/pc_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_projection

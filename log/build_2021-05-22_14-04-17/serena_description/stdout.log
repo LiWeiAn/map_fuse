@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vivian/map_fuse/build/serena_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/actuator_magnet_housing.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/base_link.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/batteries.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/camera_left.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/camera_right.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/caster_left_link.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/caster_right_link.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/depth_sensor_left.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/depth_sensor_right.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/laser.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_depth_left_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_depth_right_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/left_rgb_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/linear_actuator.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/motors.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/nanoscan.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_depth_left_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_depth_right_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/right_rgb_optical.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/shell.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/shell_collision.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/tracking_camera.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/trolley.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/trolley_wheel.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/wheel_left_link.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/meshes/wheel_right_link.STL
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/pumba.urdf
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/serena.urdf
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/urdf/trolley_description.urdf
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/package_run_dependencies/serena_description
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/parent_prefix_path/serena_description
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/path.sh
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/environment/path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.bash
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.sh
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.zsh
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/package.dsv
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/ament_index/resource_index/packages/serena_description
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/cmake/serena_descriptionConfig.cmake
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/cmake/serena_descriptionConfig-version.cmake
+-- Symlinking: /home/vivian/map_fuse/install/serena_description/share/serena_description/package.xml

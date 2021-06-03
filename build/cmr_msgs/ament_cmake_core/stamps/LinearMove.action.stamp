@@ -1,0 +1,13 @@
+# goal definition
+float32 point
+---
+# result definition
+float32 result
+---
+# feedback
+float32 current_pose
+builtin_interfaces/Duration navigation_time
+float32 current
+int8 error
+int8 status_flag
+

@@ -1,0 +1,26 @@
+[ 33%] Built target box_time_node
+[ 66%] Built target pc_fuse_node
+[100%] Built target person_remove_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/lib/pc_fuse/pc_fuse_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/lib/pc_fuse/person_remove_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/lib/pc_fuse/box_time_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/launch/fused_pointcloud_launch.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/launch/person_remove_launch.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/launch/pointcloud_to_laserscan_launch.py
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/ament_index/resource_index/package_run_dependencies/pc_fuse
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/ament_index/resource_index/parent_prefix_path/pc_fuse
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/environment/ament_prefix_path.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/environment/path.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/environment/path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/local_setup.bash
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/local_setup.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/local_setup.zsh
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/ament_index/resource_index/packages/pc_fuse
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/cmake/pc_fuseConfig.cmake
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/cmake/pc_fuseConfig-version.cmake
+-- Symlinking: /home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.xml

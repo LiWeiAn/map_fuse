@@ -1,0 +1,45 @@
+[ 25%] Built target icp_ex_node
+[ 50%] Built target transform_test_node
+[ 75%] Built target icp_pc_node
+[100%] Built target pcd_write_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_ex_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/pcd_write_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_pc_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/transform_test_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/launch/laser_4901.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4901.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4956.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5119.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5207.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_pc_save_full.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4901.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4956.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5119.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5207.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_cam.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_lidar.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/realsense_work.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/rs_pc_ex.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_cam.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_scan.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi2.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/package_run_dependencies/icp_pc
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/parent_prefix_path/icp_pc
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.bash
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.zsh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/packages/icp_pc
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig-version.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.xml

@@ -1,0 +1,8 @@
+source;share/pc_fuse/hook/cmake_prefix_path.ps1
+source;share/pc_fuse/hook/cmake_prefix_path.dsv
+source;share/pc_fuse/hook/cmake_prefix_path.sh
+source;share/pc_fuse/local_setup.bash
+source;share/pc_fuse/local_setup.dsv
+source;share/pc_fuse/local_setup.ps1
+source;share/pc_fuse/local_setup.sh
+source;share/pc_fuse/local_setup.zsh

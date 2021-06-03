@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target pc_proj_node[0m
+[35m[1mScanning dependencies of target ex_proj_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pc_proj_node.dir/src/pc_projection.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ex_proj_node.dir/src/ex_projection.cpp.o[0m
+[01m[K/home/vivian/map_fuse/src/pc_projection/src/ex_projection.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vivian/map_fuse/src/pc_projection/src/ex_projection.cpp:29:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 | int main([01;35m[Kint argc[m[K, char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[ 75%] [32m[1mLinking CXX executable ex_proj_node[0m
+[ 75%] Built target ex_proj_node
+[100%] [32m[1mLinking CXX executable pc_proj_node[0m
+[100%] Built target pc_proj_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/pc_proj_node
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/ex_proj_node
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/cam_4901.pcd
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/rs_pc_ex.pcd
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/package_run_dependencies/pc_projection
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/parent_prefix_path/pc_projection
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.bash
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.sh
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.zsh
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/packages/pc_projection
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig.cmake
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig-version.cmake
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.xml

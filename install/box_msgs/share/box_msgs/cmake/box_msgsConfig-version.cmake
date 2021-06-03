@@ -1,0 +1,1 @@
+/home/vivian/map_fuse/build/box_msgs/ament_cmake_core/box_msgsConfig-version.cmake

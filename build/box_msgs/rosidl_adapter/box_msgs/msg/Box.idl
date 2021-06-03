@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from box_msgs/msg/Box.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module box_msgs {
+  module msg {
+    struct Box {
+      std_msgs::msg::Header header;
+
+      float l;
+
+      float r;
+
+      float t;
+
+      float b;
+    };
+  };
+};

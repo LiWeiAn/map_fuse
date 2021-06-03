@@ -1,0 +1,6 @@
+{
+  "package_name": "box_msgs",
+  "non_idl_tuples": [
+    "/home/vivian/map_fuse/src/box_msgs:msg/Box.msg"
+  ]
+}

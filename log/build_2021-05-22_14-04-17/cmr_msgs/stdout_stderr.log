@@ -1,0 +1,155 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vivian/map_fuse/build/cmr_msgs
+[35m[1mScanning dependencies of target cmr_msgs__cpp[0m
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target cmr_msgs__cpp
+[  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_generator_c[0m
+[  6%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/joint_state__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/maxon_status__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/state_change__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/lifting_mech__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/msg/detail/location_type__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/srv/detail/maxon_controlword__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/srv/detail/signal_task__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_generator_c.dir/rosidl_generator_c/cmr_msgs/action/detail/linear_move__functions.c.o[0m
+[ 16%] [32m[1mLinking C shared library libcmr_msgs__rosidl_generator_c.so[0m
+[ 16%] Built target cmr_msgs__rosidl_generator_c
+[ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_cpp[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/maxon_status__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/joint_state__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/state_change__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/lifting_mech__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/msg/location_type__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/srv/maxon_controlword__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/srv/signal_task__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmr_msgs/action/linear_move__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/maxon_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/state_change__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/lifting_mech__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/msg/detail/location_type__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/srv/detail/maxon_controlword__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/srv/detail/signal_task__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmr_msgs/action/detail/linear_move__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_c[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/maxon_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/maxon_status__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_cpp.so[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/joint_state__type_support.cpp.o[0m
+[ 41%] Built target cmr_msgs__rosidl_typesupport_cpp
+[ 42%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/state_change__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_c[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/lifting_mech__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/maxon_status__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/msg/location_type__type_support.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/joint_state__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/state_change__type_support.c.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/srv/maxon_controlword__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/srv/signal_task__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/lifting_mech__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/msg/detail/location_type__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/srv/detail/maxon_controlword__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmr_msgs/action/linear_move__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/state_change__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/srv/detail/signal_task__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmr_msgs/action/detail/linear_move__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/lifting_mech__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/msg/detail/dds_fastrtps/location_type__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/srv/detail/dds_fastrtps/maxon_controlword__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/srv/detail/dds_fastrtps/signal_task__type_support.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_c.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmr_msgs/action/detail/dds_fastrtps/linear_move__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking C shared library libcmr_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 67%] Built target cmr_msgs__rosidl_typesupport_c
+[ 67%] Built target cmr_msgs__rosidl_typesupport_introspection_c
+[ 68%] [32m[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] Built target cmr_msgs__rosidl_typesupport_introspection_cpp
+[ 70%] [32m[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] Built target cmr_msgs__rosidl_typesupport_fastrtps_cpp
+[ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/state_change__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/location_type__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/lifting_mech__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/maxon_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/action/detail/linear_move__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/srv/detail/signal_task__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmr_msgs/srv/detail/maxon_controlword__type_support_c.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library libcmr_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 81%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target cmr_msgs[0m
+[ 81%] Built target cmr_msgs
+[35m[1mScanning dependencies of target cmr_msgs__py[0m
+[ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 82%] Built target cmr_msgs__py
+[35m[1mScanning dependencies of target cmr_msgs__python[0m
+[ 83%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_maxon_status_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/srv/_maxon_controlword_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_joint_state_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_location_type_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_state_change_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/action/_linear_move_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/msg/_lifting_mech_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/cmr_msgs__python.dir/rosidl_generator_py/cmr_msgs/srv/_signal_task_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/cmr_msgs/libcmr_msgs__python.so[0m
+[ 93%] Built target cmr_msgs__python
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target cmr_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/cmr_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cmr_msgs/_cmr_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/cmr_msgs/cmr_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target cmr_msgs__rosidl_typesupport_c__pyext
+[100%] Built target cmr_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext

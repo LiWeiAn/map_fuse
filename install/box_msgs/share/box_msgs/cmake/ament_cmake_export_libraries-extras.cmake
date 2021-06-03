@@ -1,0 +1,1 @@
+/home/vivian/map_fuse/build/box_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

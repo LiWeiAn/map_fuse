@@ -1,0 +1,182 @@
+[0.075s] Invoking command in '/home/vivian/map_fuse/build/pc_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/pc_projection -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/pc_projection
+[0.508s] -- The C compiler identification is GNU 9.3.0
+[0.509s] -- The CXX compiler identification is GNU 9.3.0
+[0.509s] -- Check for working C compiler: /usr/bin/cc
+[0.509s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.509s] -- Detecting C compiler ABI info
+[0.518s] -- Detecting C compiler ABI info - done
+[0.535s] -- Detecting C compile features
+[0.536s] -- Detecting C compile features - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.701s] -- Detecting CXX compiler ABI info
+[0.856s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Detecting CXX compile features
+[0.874s] -- Detecting CXX compile features - done
+[0.896s] -- Checking for module 'eigen3'
+[0.921s] --   Found eigen3, version 3.3.7
+[0.985s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.985s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.092s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.117s] -- Checking for module 'flann'
+[1.150s] --   Found flann, version 1.9.1
+[1.230s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.334s] -- The imported target "vtkParseOGLExt" references the file
+[1.334s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.334s] but this file does not exist.  Possible reasons include:
+[1.334s] * The file was deleted, renamed, or moved to another location.
+[1.335s] * An install or uninstall procedure did not complete successfully.
+[1.335s] * The installation package was faulty and contained
+[1.335s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.335s] but not all the files it references.
+[1.337s] 
+[1.337s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.337s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.337s] but this file does not exist.  Possible reasons include:
+[1.338s] * The file was deleted, renamed, or moved to another location.
+[1.339s] * An install or uninstall procedure did not complete successfully.
+[1.339s] * The installation package was faulty and contained
+[1.339s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.340s] but not all the files it references.
+[1.340s] 
+[1.340s] -- The imported target "vtk" references the file
+[1.340s]    "/usr/bin/vtk"
+[1.340s] but this file does not exist.  Possible reasons include:
+[1.340s] * The file was deleted, renamed, or moved to another location.
+[1.340s] * An install or uninstall procedure did not complete successfully.
+[1.340s] * The installation package was faulty and contained
+[1.340s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.341s] but not all the files it references.
+[1.341s] 
+[1.341s] -- The imported target "pvtk" references the file
+[1.341s]    "/usr/bin/pvtk"
+[1.341s] but this file does not exist.  Possible reasons include:
+[1.341s] * The file was deleted, renamed, or moved to another location.
+[1.341s] * An install or uninstall procedure did not complete successfully.
+[1.341s] * The installation package was faulty and contained
+[1.341s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.341s] but not all the files it references.
+[1.341s] 
+[1.370s] -- Checking for module 'libusb-1.0'
+[1.375s] --   No package 'libusb-1.0' found
+[1.382s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.382s] -- OpenNI disabled because libusb-1.0 not found.
+[1.382s] ** WARNING ** io features related to openni will be disabled
+[1.389s] -- Checking for module 'libusb-1.0'
+[1.395s] --   No package 'libusb-1.0' found
+[1.403s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.403s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.403s] ** WARNING ** io features related to openni2 will be disabled
+[1.403s] ** WARNING ** io features related to pcap will be disabled
+[1.403s] ** WARNING ** io features related to png will be disabled
+[1.428s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.429s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.437s] -- Checking for module 'libusb-1.0'
+[1.444s] --   No package 'libusb-1.0' found
+[1.450s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.451s] -- OpenNI disabled because libusb-1.0 not found.
+[1.451s] ** WARNING ** visualization features related to openni will be disabled
+[1.460s] -- Checking for module 'libusb-1.0'
+[1.466s] --   No package 'libusb-1.0' found
+[1.472s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.472s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.472s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.529s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.529s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.536s] -- Checking for module 'libusb-1.0'
+[1.542s] --   No package 'libusb-1.0' found
+[1.549s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.549s] -- OpenNI disabled because libusb-1.0 not found.
+[1.549s] ** WARNING ** apps features related to openni will be disabled
+[1.576s] -- looking for PCL_COMMON
+[1.578s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.579s] -- looking for PCL_KDTREE
+[1.581s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.581s] -- looking for PCL_OCTREE
+[1.583s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.584s] -- looking for PCL_SEARCH
+[1.586s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.586s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.588s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.589s] -- looking for PCL_FILTERS
+[1.591s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.592s] -- looking for PCL_2D
+[1.592s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.592s] -- looking for PCL_GEOMETRY
+[1.593s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.593s] -- looking for PCL_IO
+[1.595s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.595s] -- looking for PCL_FEATURES
+[1.597s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.597s] -- looking for PCL_ML
+[1.599s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.600s] -- looking for PCL_SEGMENTATION
+[1.601s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.602s] -- looking for PCL_VISUALIZATION
+[1.604s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.604s] -- looking for PCL_SURFACE
+[1.606s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.606s] -- looking for PCL_REGISTRATION
+[1.608s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.609s] -- looking for PCL_KEYPOINTS
+[1.610s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.611s] -- looking for PCL_TRACKING
+[1.613s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.613s] -- looking for PCL_RECOGNITION
+[1.615s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.616s] -- looking for PCL_STEREO
+[1.617s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.618s] -- looking for PCL_APPS
+[1.620s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.621s] -- looking for PCL_IN_HAND_SCANNER
+[1.622s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.622s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.623s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.623s] -- looking for PCL_OUTOFCORE
+[1.625s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.626s] -- looking for PCL_PEOPLE
+[1.628s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.630s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.632s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.674s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.961s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.003s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.085s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.249s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.504s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.508s] -- Looking for pthread.h
+[2.604s] -- Looking for pthread.h - found
+[2.605s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.716s] -- Looking for pthread_create in pthreads
+[2.801s] -- Looking for pthread_create in pthreads - not found
+[2.801s] -- Looking for pthread_create in pthread
+[2.892s] -- Looking for pthread_create in pthread - found
+[2.894s] -- Found Threads: TRUE  
+[3.192s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.383s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.404s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[3.426s] -- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[4.120s] -- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[4.139s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.199s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[4.206s] -- Found pcl_conversions: 2.2.0 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[5.229s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.376s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.388s] -- Configured cppcheck include dirs: /home/vivian/map_fuse/src/pc_projection/include
+[5.388s] -- Configured cppcheck exclude dirs and/or files: 
+[5.398s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.398s] -- Configured cpplint exclude dirs and/or files: 
+[5.403s] -- Added test 'lint_cmake' to check CMake code style
+[5.414s] -- Added test 'uncrustify' to check C / C++ code style
+[5.414s] -- Configured uncrustify additional arguments: 
+[5.416s] -- Added test 'xmllint' to check XML markup files
+[5.424s] -- Configuring done
+[5.659s] -- Generating done
+[5.664s] -- Build files have been written to: /home/vivian/map_fuse/build/pc_projection

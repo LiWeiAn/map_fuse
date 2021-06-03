@@ -1,0 +1,4 @@
+source;share/pc_fuse/local_setup.bash
+source;share/pc_fuse/local_setup.dsv
+source;share/pc_fuse/local_setup.sh
+source;share/pc_fuse/local_setup.zsh

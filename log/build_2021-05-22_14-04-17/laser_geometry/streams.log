@@ -1,0 +1,63 @@
+[0.085s] Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/laser_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/laser_geometry
+[0.531s] -- The C compiler identification is GNU 9.3.0
+[0.531s] -- The CXX compiler identification is GNU 9.3.0
+[0.532s] -- Check for working C compiler: /usr/bin/cc
+[0.532s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.532s] -- Detecting C compiler ABI info
+[0.548s] -- Detecting C compiler ABI info - done
+[0.565s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.732s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.890s] -- Detecting CXX compile features
+[0.892s] -- Detecting CXX compile features - done
+[0.896s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.291s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.333s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.436s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.632s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.877s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.880s] -- Looking for pthread.h
+[1.994s] -- Looking for pthread.h - found
+[1.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.102s] -- Looking for pthread_create in pthreads
+[2.180s] -- Looking for pthread_create in pthreads - not found
+[2.180s] -- Looking for pthread_create in pthread
+[2.278s] -- Looking for pthread_create in pthread - found
+[2.281s] -- Found Threads: TRUE  
+[2.522s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.716s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.732s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[2.749s] -- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.374s] -- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.389s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.430s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[3.439s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.568s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.575s] -- Configured cppcheck include dirs: 
+[3.576s] -- Configured cppcheck exclude dirs and/or files: 
+[3.582s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.582s] -- Configured cpplint exclude dirs and/or files: 
+[3.586s] -- Added test 'lint_cmake' to check CMake code style
+[3.593s] -- Added test 'uncrustify' to check C / C++ code style
+[3.594s] -- Configured uncrustify additional arguments: 
+[3.595s] -- Added test 'xmllint' to check XML markup files
+[3.602s] -- Configuring done
+[3.626s] -- Generating done
+[3.630s] -- Build files have been written to: /home/vivian/map_fuse/build/laser_geometry
+[3.648s] Invoked command in '/home/vivian/map_fuse/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/laser_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/laser_geometry
+[3.653s] Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/laser_geometry -- -j12 -l12
+[3.718s] [35m[1mScanning dependencies of target laser2pc_node[0m
+[3.800s] [ 50%] [32mBuilding CXX object CMakeFiles/laser2pc_node.dir/src/laser2pc.cpp.o[0m
+[12.072s] [100%] [32m[1mLinking CXX executable laser2pc_node[0m
+[12.329s] [100%] Built target laser2pc_node

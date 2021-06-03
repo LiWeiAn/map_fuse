@@ -1,0 +1,1 @@
+/home/vivian/map_fuse/src/cmr_msgs/msg/LocationType.msg

@@ -1,0 +1,197 @@
+[  1%] Built target cmr_msgs__cpp
+[ 12%] Built target cmr_msgs__rosidl_generator_c
+[ 44%] Built target cmr_msgs__rosidl_typesupport_introspection_cpp
+[ 47%] Built target cmr_msgs__rosidl_typesupport_introspection_c
+[ 47%] Built target cmr_msgs__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target cmr_msgs__rosidl_typesupport_c
+[ 70%] Built target cmr_msgs__rosidl_typesupport_cpp
+[ 81%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Built target cmr_msgs
+[ 82%] Built target cmr_msgs__py
+[ 93%] Built target cmr_msgs__python
+[ 95%] Built target cmr_msgs__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target cmr_msgs__rosidl_typesupport_c__pyext
+[100%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/rosidl_interfaces/cmr_msgs
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__functions.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__type_support.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__builder.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__traits.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/__init__.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_joint_state.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_lifting_mech.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_location_type.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_maxon_status.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_state_change.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_maxon_controlword.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_signal_task.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/__init__.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/_linear_move.py
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__python.so
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.idl
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.srv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Request.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Response.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.srv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Request.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Response.msg
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.action
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/package_run_dependencies/cmr_msgs
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/parent_prefix_path/cmr_msgs
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.bash
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/packages/cmr_msgs
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.xml
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport-noconfig.cmake

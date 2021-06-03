@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cmr_msgs/msg/StateChange.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module cmr_msgs {
+  module msg {
+    module StateChange_Constants {
+      const uint8 STARTUP = 1;
+      const uint8 PAUSE = 2;
+      const uint8 RESUME = 3;
+      const uint8 RESET = 4;
+      const uint8 SHUTDOWN = 5;
+    };
+    struct StateChange {
+      std_msgs::msg::Header header;
+
+      uint8 control_state;
+
+      string node_name;
+    };
+  };
+};

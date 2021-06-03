@@ -1,0 +1,101 @@
+[0.104s] Invoking command in '/home/vivian/map_fuse/build/box_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/box_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/box_msgs
+[0.554s] -- The C compiler identification is GNU 9.3.0
+[0.556s] -- The CXX compiler identification is GNU 9.3.0
+[0.556s] -- Check for working C compiler: /usr/bin/cc
+[0.557s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.557s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.758s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.935s] -- Detecting CXX compile features
+[0.936s] -- Detecting CXX compile features - done
+[0.940s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.991s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.991s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.321s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.518s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.575s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.805s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.860s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.094s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[2.584s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.628s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[2.629s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.629s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.629s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.667s] -- Found PythonExtra: .so  
+[2.807s] -- Configuring done
+[2.862s] -- Generating done
+[2.865s] -- Build files have been written to: /home/vivian/map_fuse/build/box_msgs
+[2.876s] Invoked command in '/home/vivian/map_fuse/build/box_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake /home/vivian/map_fuse/src/box_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/box_msgs
+[2.880s] Invoking command in '/home/vivian/map_fuse/build/box_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/box_msgs -- -j12 -l12
+[2.940s] [35m[1mScanning dependencies of target box_msgs__cpp[0m
+[2.941s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.952s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.273s] [  6%] Built target box_msgs__cpp
+[3.288s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.289s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.289s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.400s] [35m[1mScanning dependencies of target box_msgs__rosidl_generator_c[0m
+[3.419s] [ 19%] [32mBuilding C object CMakeFiles/box_msgs__rosidl_generator_c.dir/rosidl_generator_c/box_msgs/msg/detail/box__functions.c.o[0m
+[3.483s] [ 22%] [32m[1mLinking C shared library libbox_msgs__rosidl_generator_c.so[0m
+[3.548s] [ 22%] Built target box_msgs__rosidl_generator_c
+[3.566s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.568s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.715s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_cpp[0m
+[3.722s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.737s] [ 32%] [32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/box_msgs/msg/box__type_support.cpp.o[0m
+[3.740s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.742s] [ 35%] [32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/box_msgs/msg/detail/box__type_support.cpp.o[0m
+[3.763s] [ 38%] [32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/box_msgs/msg/detail/dds_fastrtps/box__type_support.cpp.o[0m
+[3.942s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_c[0m
+[3.963s] [ 41%] [32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/box_msgs/msg/box__type_support.cpp.o[0m
+[3.990s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_c[0m
+[4.011s] [ 45%] [32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/box_msgs/msg/detail/box__type_support.c.o[0m
+[4.014s] [ 48%] [32m[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_c.so[0m
+[4.067s] [ 51%] [32m[1mLinking C shared library libbox_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.083s] [ 51%] Built target box_msgs__rosidl_typesupport_c
+[4.118s] [ 51%] Built target box_msgs__rosidl_typesupport_introspection_c
+[4.262s] [ 54%] [32m[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_cpp.so[0m
+[4.278s] [ 58%] [32m[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.330s] [ 58%] Built target box_msgs__rosidl_typesupport_cpp
+[4.375s] [ 61%] [32m[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.397s] [ 61%] Built target box_msgs__rosidl_typesupport_introspection_cpp
+[4.544s] [ 61%] Built target box_msgs__rosidl_typesupport_fastrtps_cpp
+[4.558s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.975s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_c[0m
+[5.000s] [ 67%] [32mBuilding CXX object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/box_msgs/msg/detail/box__type_support_c.cpp.o[0m
+[5.664s] [ 70%] [32m[1mLinking CXX shared library libbox_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.878s] [ 70%] Built target box_msgs__rosidl_typesupport_fastrtps_c
+[5.946s] [35m[1mScanning dependencies of target box_msgs[0m
+[6.018s] [ 70%] Built target box_msgs
+[6.090s] [35m[1mScanning dependencies of target box_msgs__py[0m
+[6.139s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.131s] [ 74%] Built target box_msgs__py
+[7.155s] [35m[1mScanning dependencies of target box_msgs__python[0m
+[7.206s] [ 77%] [32mBuilding C object CMakeFiles/box_msgs__python.dir/rosidl_generator_py/box_msgs/msg/_box_s.c.o[0m
+[7.403s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/box_msgs/libbox_msgs__python.so[0m
+[7.495s] [ 80%] Built target box_msgs__python
+[7.512s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_c__pyext[0m
+[7.516s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[7.540s] [35m[1mScanning dependencies of target box_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.560s] [ 83%] [32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.568s] [ 87%] [32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.583s] [ 90%] [32mBuilding C object CMakeFiles/box_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/box_msgs/_box_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.723s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.738s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.759s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/box_msgs/box_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.792s] [100%] Built target box_msgs__rosidl_typesupport_c__pyext
+[7.807s] [100%] Built target box_msgs__rosidl_typesupport_introspection_c__pyext
+[7.882s] [100%] Built target box_msgs__rosidl_typesupport_fastrtps_c__pyext

@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cmr_msgs/msg/MaxonStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module cmr_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Device State ENUM" "\n"
+      "uint16 NRTSO = \"0x01\"" "\n"
+      "uint8 SOD   = 0x02" "\n"
+      "uint8 RTSO  = 0x03" "\n"
+      "uint8 SO    = 0x04" "\n"
+      "uint8 OE    = 0x05" "\n"
+      "uint8 QSA   = 0x06" "\n"
+      "uint8 FRA   = 0x07" "\n"
+      "uint8 F     = 0x08")
+    struct MaxonStatus {
+      std_msgs::msg::Header header;
+
+      sequence<uint8> device_state;
+
+      sequence<int32> velocity_dem;
+
+      sequence<int32> velocity_act;
+
+      sequence<int16> torque_act_avg;
+
+      sequence<uint16> voltage;
+
+      sequence<uint16> i2t_level_cont;
+
+      sequence<uint16> i2t_level_motor;
+
+      sequence<int32> current_dem;
+
+      sequence<int32> current_act;
+
+      sequence<int32> current_act_avg;
+
+      sequence<int32> sense_vel_act;
+
+      sequence<int32> sense_vel_avg;
+
+      sequence<uint8> error;
+
+      sequence<uint16> error_history;
+    };
+  };
+};

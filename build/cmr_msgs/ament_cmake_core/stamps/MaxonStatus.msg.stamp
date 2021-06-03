@@ -1,0 +1,27 @@
+# Device State ENUM
+#uint16 NRTSO = "0x01"
+#uint8 SOD   = 0x02
+#uint8 RTSO  = 0x03
+#uint8 SO    = 0x04
+#uint8 OE    = 0x05
+#uint8 QSA   = 0x06
+#uint8 FRA   = 0x07
+#uint8 F     = 0x08
+
+std_msgs/Header header
+uint8[]  device_state 
+int32[]   velocity_dem
+int32[]   velocity_act
+int16[]  torque_act_avg
+uint16[] voltage
+uint16[] i2t_level_cont
+uint16[] i2t_level_motor
+int32[]  current_dem
+int32[]  current_act
+int32[]  current_act_avg
+int32[]  sense_vel_act
+int32[]  sense_vel_avg
+uint8[]  error
+uint16[] error_history
+
+

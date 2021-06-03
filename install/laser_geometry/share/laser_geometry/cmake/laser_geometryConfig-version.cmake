@@ -1,0 +1,1 @@
+/home/vivian/map_fuse/build/laser_geometry/ament_cmake_core/laser_geometryConfig-version.cmake

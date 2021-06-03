@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.001793] (-) JobUnselected: {'identifier': 'box_msgs'}
+[0.002101] (-) JobUnselected: {'identifier': 'icp_pc'}
+[0.002183] (-) JobUnselected: {'identifier': 'laser_geometry'}
+[0.002248] (-) JobUnselected: {'identifier': 'pc_fuse'}
+[0.002304] (-) JobUnselected: {'identifier': 'pc_projection'}
+[0.002345] (-) JobUnselected: {'identifier': 'person_detection'}
+[0.002383] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.002423] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.002461] (-) JobUnselected: {'identifier': 'serena_description'}
+[0.002508] (cmr_msgs) JobQueued: {'identifier': 'cmr_msgs', 'dependencies': OrderedDict()}
+[0.002559] (cmr_msgs) JobStarted: {'identifier': 'cmr_msgs'}
+[0.022269] (cmr_msgs) JobProgress: {'identifier': 'cmr_msgs', 'progress': 'cmake'}
+[0.024198] (cmr_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/vivian/map_fuse/src/cmr_msgs', '-DCMAKE_INSTALL_PREFIX=/home/vivian/map_fuse/install/cmr_msgs'], 'cwd': '/home/vivian/map_fuse/build/cmr_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/cmr_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[0.054768] (cmr_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.096030] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.096397] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.097590] (-) TimerEvent: {}
+[0.198112] (-) TimerEvent: {}
+[0.298712] (-) TimerEvent: {}
+[0.399498] (cmr_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.399871] (-) TimerEvent: {}
+[0.413286] (cmr_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.443722] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448369] (cmr_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500043] (-) TimerEvent: {}
+[0.600672] (-) TimerEvent: {}
+[0.642743] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700918] (-) TimerEvent: {}
+[0.706389] (cmr_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.720002] (cmr_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[0.801220] (-) TimerEvent: {}
+[0.824550] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[0.901456] (-) TimerEvent: {}
+[1.002159] (-) TimerEvent: {}
+[1.102736] (-) TimerEvent: {}
+[1.148020] (cmr_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.202965] (-) TimerEvent: {}
+[1.303534] (-) TimerEvent: {}
+[1.404108] (-) TimerEvent: {}
+[1.456368] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.504327] (-) TimerEvent: {}
+[1.569427] (cmr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.604508] (-) TimerEvent: {}
+[1.622492] (cmr_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.623074] (cmr_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.665944] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.666259] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.666419] (cmr_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.704679] (-) TimerEvent: {}
+[1.752589] (cmr_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.804888] (-) TimerEvent: {}
+[1.846138] (cmr_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.850696] (cmr_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/vivian/map_fuse/build/cmr_msgs\n'}
+[1.860201] (cmr_msgs) CommandEnded: {'returncode': 0}
+[1.861316] (cmr_msgs) JobProgress: {'identifier': 'cmr_msgs', 'progress': 'build'}
+[1.864689] (cmr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivian/map_fuse/build/cmr_msgs', '--', '-j12', '-l12'], 'cwd': '/home/vivian/map_fuse/build/cmr_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/cmr_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[1.905142] (-) TimerEvent: {}
+[1.943681] (cmr_msgs) StdoutLine: {'line': b'[  1%] Built target cmr_msgs__cpp\n'}
+[1.948104] (cmr_msgs) StdoutLine: {'line': b'[ 12%] Built target cmr_msgs__rosidl_generator_c\n'}
+[1.979597] (cmr_msgs) StdoutLine: {'line': b'[ 24%] Built target cmr_msgs__rosidl_typesupport_cpp\n'}
+[1.980494] (cmr_msgs) StdoutLine: {'line': b'[ 35%] Built target cmr_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.981462] (cmr_msgs) StdoutLine: {'line': b'[ 47%] Built target cmr_msgs__rosidl_typesupport_c\n'}
+[1.986756] (cmr_msgs) StdoutLine: {'line': b'[ 58%] Built target cmr_msgs__rosidl_typesupport_introspection_c\n'}
+[1.988797] (cmr_msgs) StdoutLine: {'line': b'[ 70%] Built target cmr_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.005276] (-) TimerEvent: {}
+[2.043545] (cmr_msgs) StdoutLine: {'line': b'[ 81%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.074566] (cmr_msgs) StdoutLine: {'line': b'[ 81%] Built target cmr_msgs\n'}
+[2.105432] (-) TimerEvent: {}
+[2.108095] (cmr_msgs) StdoutLine: {'line': b'[ 82%] Built target cmr_msgs__py\n'}
+[2.160987] (cmr_msgs) StdoutLine: {'line': b'[ 93%] Built target cmr_msgs__python\n'}
+[2.202203] (cmr_msgs) StdoutLine: {'line': b'[ 95%] Built target cmr_msgs__rosidl_typesupport_c__pyext\n'}
+[2.202711] (cmr_msgs) StdoutLine: {'line': b'[ 97%] Built target cmr_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.204393] (cmr_msgs) StdoutLine: {'line': b'[100%] Built target cmr_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.205538] (-) TimerEvent: {}
+[2.222739] (cmr_msgs) CommandEnded: {'returncode': 0}
+[2.305696] (-) TimerEvent: {}
+[2.385101] (cmr_msgs) JobProgress: {'identifier': 'cmr_msgs', 'progress': 'install'}
+[2.402526] (cmr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivian/map_fuse/build/cmr_msgs'], 'cwd': '/home/vivian/map_fuse/build/cmr_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'vivian'), ('SSH_AGENT_PID', '1600'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/home/vivian/map_fuse/install/box_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vivian'), ('OLDPWD', '/home/vivian/map_fuse/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivian/map_fuse/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivian'), ('JOURNAL_STREAM', '8:40926'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivian-KLVL-WXX9:@/tmp/.ICE-unix/1674,unix/vivian-KLVL-WXX9:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'd388f572eec643eba177673768eca19d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5c8933_53c3_4845_a950_57c978a2ed90'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.263'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/person_detection:/home/vivian/map_fuse/install/map_fuse:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivian/map_fuse/build/cmr_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy')]), 'shell': False}
+[2.405851] (-) TimerEvent: {}
+[2.415249] (cmr_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.415940] (cmr_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.416280] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/rosidl_interfaces/cmr_msgs\n'}
+[2.431111] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__functions.h\n'}
+[2.445423] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.h\n'}
+[2.457810] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__type_support.h\n'}
+[2.468576] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.h\n'}
+[2.478690] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__functions.h\n'}
+[2.493206] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.h\n'}
+[2.506013] (-) TimerEvent: {}
+[2.507087] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__type_support.h\n'}
+[2.521541] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__functions.h\n'}
+[2.536861] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.h\n'}
+[2.547563] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__type_support.h\n'}
+[2.557700] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__functions.h\n'}
+[2.571531] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.h\n'}
+[2.582011] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__type_support.h\n'}
+[2.592410] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__functions.h\n'}
+[2.602064] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.h\n'}
+[2.606154] (-) TimerEvent: {}
+[2.612839] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__type_support.h\n'}
+[2.626823] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__functions.h\n'}
+[2.637521] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.h\n'}
+[2.652815] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__type_support.h\n'}
+[2.663433] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.h\n'}
+[2.673568] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.h\n'}
+[2.684494] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.h\n'}
+[2.698812] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.h\n'}
+[2.706314] (-) TimerEvent: {}
+[2.711102] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.721410] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.h\n'}
+[2.732396] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__functions.h\n'}
+[2.743055] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.h\n'}
+[2.753689] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__type_support.h\n'}
+[2.764600] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__functions.h\n'}
+[2.774602] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.h\n'}
+[2.784849] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__type_support.h\n'}
+[2.794844] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.h\n'}
+[2.805495] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.h\n'}
+[2.806446] (-) TimerEvent: {}
+[2.815972] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.sh\n'}
+[2.826625] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/library_path.dsv\n'}
+[2.841314] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_c.h\n'}
+[2.854783] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.864620] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_c.h\n'}
+[2.878293] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_c.h\n'}
+[2.889144] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.903272] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_c.h\n'}
+[2.906606] (-) TimerEvent: {}
+[2.916755] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.933762] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_c.h\n'}
+[2.944364] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_c.h\n'}
+[2.959334] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.974192] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.987652] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.998051] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.006791] (-) TimerEvent: {}
+[3.008689] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.019778] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.034044] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.049105] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.059735] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.070853] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.082223] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.098137] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_c.h\n'}
+[3.106994] (-) TimerEvent: {}
+[3.111553] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h\n'}
+[3.124081] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_c.h\n'}
+[3.139957] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_c.h\n'}
+[3.153384] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_c.h\n'}
+[3.164667] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_c.h\n'}
+[3.179180] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.193549] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_c.h\n'}
+[3.207180] (-) TimerEvent: {}
+[3.207860] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_c.h\n'}
+[3.222845] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__builder.hpp\n'}
+[3.236317] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__struct.hpp\n'}
+[3.246977] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__traits.hpp\n'}
+[3.261299] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/linear_move.hpp\n'}
+[3.276626] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__builder.hpp\n'}
+[3.287132] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__struct.hpp\n'}
+[3.297809] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__traits.hpp\n'}
+[3.307386] (-) TimerEvent: {}
+[3.312898] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__builder.hpp\n'}
+[3.327514] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__struct.hpp\n'}
+[3.343840] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__traits.hpp\n'}
+[3.358056] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__builder.hpp\n'}
+[3.368495] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__struct.hpp\n'}
+[3.383453] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__traits.hpp\n'}
+[3.397730] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__builder.hpp\n'}
+[3.407585] (-) TimerEvent: {}
+[3.412724] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__struct.hpp\n'}
+[3.423105] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__traits.hpp\n'}
+[3.433733] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__builder.hpp\n'}
+[3.448297] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__struct.hpp\n'}
+[3.458241] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__traits.hpp\n'}
+[3.472450] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/joint_state.hpp\n'}
+[3.483882] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/lifting_mech.hpp\n'}
+[3.494092] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/location_type.hpp\n'}
+[3.504666] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/maxon_status.hpp\n'}
+[3.507788] (-) TimerEvent: {}
+[3.514772] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/state_change.hpp\n'}
+[3.525536] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__builder.hpp\n'}
+[3.536775] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__struct.hpp\n'}
+[3.550665] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__traits.hpp\n'}
+[3.565270] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__builder.hpp\n'}
+[3.576196] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__struct.hpp\n'}
+[3.585881] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__traits.hpp\n'}
+[3.600548] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/maxon_controlword.hpp\n'}
+[3.607967] (-) TimerEvent: {}
+[3.615822] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/signal_task.hpp\n'}
+[3.630604] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/action/detail/linear_move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.642246] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.655140] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/lifting_mech__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.665466] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/location_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.680367] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/maxon_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.694856] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/msg/detail/state_change__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.705471] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/maxon_controlword__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.708130] (-) TimerEvent: {}
+[3.719884] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/include/cmr_msgs/srv/detail/signal_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.730912] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.sh\n'}
+[3.745623] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/pythonpath.dsv\n'}
+[3.758503] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/__init__.py\n'}
+[3.774861] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/__init__.py\n'}
+[3.785216] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_joint_state.py\n'}
+[3.800260] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_lifting_mech.py\n'}
+[3.808282] (-) TimerEvent: {}
+[3.810310] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_location_type.py\n'}
+[3.820894] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_maxon_status.py\n'}
+[3.831270] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/msg/_state_change.py\n'}
+[3.842416] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/__init__.py\n'}
+[3.853206] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_maxon_controlword.py\n'}
+[3.863504] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/srv/_signal_task.py\n'}
+[3.874355] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/__init__.py\n'}
+[3.885299] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/action/_linear_move.py\n'}
+[3.895945] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.906437] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.908431] (-) TimerEvent: {}
+[3.917769] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/cmr_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.928635] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__python.so\n'}
+[3.938997] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.idl\n'}
+[3.949819] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.idl\n'}
+[3.960147] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.idl\n'}
+[3.970238] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.idl\n'}
+[3.981382] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.idl\n'}
+[3.991825] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.idl\n'}
+[4.002033] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.idl\n'}
+[4.008579] (-) TimerEvent: {}
+[4.013462] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.idl\n'}
+[4.024255] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/MaxonStatus.msg\n'}
+[4.034759] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/JointState.msg\n'}
+[4.045465] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/StateChange.msg\n'}
+[4.059185] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LiftingMech.msg\n'}
+[4.070692] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/msg/LocationType.msg\n'}
+[4.084442] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword.srv\n'}
+[4.095408] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Request.msg\n'}
+[4.106104] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/MaxonControlword_Response.msg\n'}
+[4.108764] (-) TimerEvent: {}
+[4.121430] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask.srv\n'}
+[4.135080] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Request.msg\n'}
+[4.149702] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/srv/SignalTask_Response.msg\n'}
+[4.160669] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/action/LinearMove.action\n'}
+[4.172836] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/package_run_dependencies/cmr_msgs\n'}
+[4.186660] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/parent_prefix_path/cmr_msgs\n'}
+[4.197264] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.sh\n'}
+[4.208994] (-) TimerEvent: {}
+[4.212338] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/ament_prefix_path.dsv\n'}
+[4.223996] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.sh\n'}
+[4.238355] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/environment/path.dsv\n'}
+[4.251437] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.bash\n'}
+[4.262254] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.sh\n'}
+[4.273914] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.zsh\n'}
+[4.284918] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/local_setup.dsv\n'}
+[4.296400] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.dsv\n'}
+[4.307675] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/ament_index/resource_index/packages/cmr_msgs\n'}
+[4.309017] (-) TimerEvent: {}
+[4.318877] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.329908] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.341152] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.351042] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.365467] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.377028] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.390406] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.404448] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig.cmake\n'}
+[4.409270] (-) TimerEvent: {}
+[4.415862] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgsConfig-version.cmake\n'}
+[4.426563] (cmr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.xml\n'}
+[4.437987] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_generator_c.so\n'}
+[4.438757] (cmr_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_generator_c.so" to ""\n'}
+[4.439184] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.439553] (cmr_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.439962] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_c.so\n'}
+[4.440249] (cmr_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.440488] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.441511] (cmr_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.441871] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_cpp.so\n'}
+[4.442254] (cmr_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vivian/map_fuse/install/cmr_msgs/lib/libcmr_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.486490] (cmr_msgs) StdoutLine: {'line': b"Compiling '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages/cmr_msgs/__init__.py'...\n"}
+[4.492260] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport.cmake\n'}
+[4.492687] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.492858] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.493220] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.493467] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.493838] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.494135] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.494399] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.494597] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.494826] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.495016] (cmr_msgs) StdoutLine: {'line': b'-- Installing: /home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/cmake/cmr_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.499959] (cmr_msgs) CommandEnded: {'returncode': 0}
+[4.510133] (-) TimerEvent: {}
+[4.610672] (-) TimerEvent: {}
+[4.707778] (cmr_msgs) JobEnded: {'identifier': 'cmr_msgs', 'rc': 0}
+[4.708717] (-) EventReactorShutdown: {}

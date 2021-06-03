@@ -1,0 +1,24 @@
+[ 50%] Built target ex_proj_node
+[100%] Built target pc_proj_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/pc_proj_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/lib/pc_projection/ex_proj_node
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/cam_4901.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/params/rs_pc_ex.pcd
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/package_run_dependencies/pc_projection
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/parent_prefix_path/pc_projection
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/environment/path.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.bash
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.sh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.zsh
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/local_setup.dsv
+-- Symlinking: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.dsv
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/ament_index/resource_index/packages/pc_projection
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/cmake/pc_projectionConfig-version.cmake
+-- Up-to-date symlink: /home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.xml

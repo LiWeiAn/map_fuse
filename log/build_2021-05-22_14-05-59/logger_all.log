@@ -1,0 +1,762 @@
+[0.441s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.441s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb5ba917d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb5ba917d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb5ba9252b0>)
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vivian/map_fuse'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/box_msgs) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/box_msgs' with type 'ros.ament_cmake' and name 'box_msgs'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmr_msgs) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmr_msgs' with type 'ros.ament_cmake' and name 'cmr_msgs'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_pc) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icp_pc' with type 'ros.ament_cmake' and name 'icp_pc'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/include/map_fuse) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_geometry) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_geometry' with type 'ros.ament_cmake' and name 'laser_geometry'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_fuse) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pc_fuse' with type 'ros.ament_cmake' and name 'pc_fuse'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/pc_projection) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pc_projection' with type 'ros.ament_cmake' and name 'pc_projection'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/person_detection' with type 'ros.ament_python' and name 'person_detection'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/serena_description) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serena_description' with type 'ros.ament_cmake' and name 'serena_description'
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'box_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'box_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/box_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/box_msgs', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/box_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'cmr_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'cmr_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/cmr_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/cmr_msgs', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/cmr_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'icp_pc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'icp_pc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/icp_pc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/icp_pc', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/icp_pc', 'symlink_install': True, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'laser_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'laser_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/laser_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/laser_geometry', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/laser_geometry', 'symlink_install': True, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'pc_projection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'pc_projection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/pc_projection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/pc_projection', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/pc_projection', 'symlink_install': True, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'person_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/person_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/person_detection', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/person_detection', 'symlink_install': True, 'test_result_base': None}
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/robot_bringup', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_target' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'serena_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.543s] DEBUG:colcon.colcon_core.verb:Building package 'serena_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/serena_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/serena_description', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/serena_description', 'symlink_install': True, 'test_result_base': None}
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_target' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_clean_first' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'cmake_force_configure' from command line to 'False'
+[0.547s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'ament_cmake_args' from command line to 'None'
+[0.547s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.547s] Level 5:colcon.colcon_core.verb:set package 'pc_fuse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.547s] DEBUG:colcon.colcon_core.verb:Building package 'pc_fuse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/pc_fuse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/pc_fuse', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/pc_fuse', 'symlink_install': True, 'test_result_base': None}
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivian/map_fuse/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivian/map_fuse/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/vivian/map_fuse/src/pointcloud_to_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.552s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/box_msgs' with build type 'ament_cmake'
+[0.556s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/box_msgs'
+[0.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vivian/map_fuse/install/map_fuse' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.567s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vivian/map_fuse/install/map_fuse' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.568s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.573s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/laser_geometry' with build type 'ament_cmake'
+[0.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/laser_geometry'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/cmr_msgs' with build type 'ament_cmake'
+[0.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/cmr_msgs'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.596s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/icp_pc' with build type 'ament_cmake'
+[0.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/icp_pc'
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.606s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/pc_projection' with build type 'ament_cmake'
+[0.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/pc_projection'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.617s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vivian/map_fuse/src/person_detection' with build type 'ament_python'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_detection', 'ament_prefix_path')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/ament_prefix_path.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/ament_prefix_path.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/ament_prefix_path.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/robot_bringup' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/robot_bringup'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/serena_description' with build type 'ament_cmake'
+[0.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/serena_description'
+[0.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.651s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/box_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/box_msgs -- -j12 -l12
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/laser_geometry -- -j12 -l12
+[0.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/cmr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/cmr_msgs -- -j12 -l12
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pc_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_projection -- -j12 -l12
+[1.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vivian/map_fuse/src/person_detection'
+[1.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.118s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/robot_bringup -- -j12 -l12
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/serena_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/serena_description -- -j12 -l12
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/box_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/box_msgs -- -j12 -l12
+[1.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/laser_geometry -- -j12 -l12
+[1.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/cmr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/cmr_msgs -- -j12 -l12
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[1.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pc_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_projection -- -j12 -l12
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/person_detection': PYTHONPATH=/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vivian/map_fuse/install/person_detection --editable --build-directory /home/vivian/map_fuse/build/person_detection/build --no-deps install_data --install-dir /home/vivian/map_fuse/install/person_detection
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/laser_geometry
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/serena_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/serena_description -- -j12 -l12
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pc_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_projection
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/box_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/box_msgs
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_geometry)
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/serena_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/serena_description
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/laser_geometry
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_geometry', 'cmake_prefix_path')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/bin'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib/pkgconfig/laser_geometry.pc'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib/python3.8/site-packages'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.sh'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.bash'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.zsh'
+[1.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/laser_geometry/share/colcon-core/packages/laser_geometry)
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/robot_bringup -- -j12 -l12
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pc_projection)
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection' for CMake module files
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pc_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_projection
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection' for CMake config files
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc_projection', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.sh'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/bin'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib/pkgconfig/pc_projection.pc'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib/python3.8/site-packages'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.bash'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.zsh'
+[1.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pc_projection/share/colcon-core/packages/pc_projection)
+[1.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_pc)
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc' for CMake module files
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc' for CMake config files
+[1.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_pc', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/bin'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib/pkgconfig/icp_pc.pc'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib/python3.8/site-packages'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.zsh'
+[1.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/icp_pc/share/colcon-core/packages/icp_pc)
+[1.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serena_description)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description' for CMake module files
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/serena_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/serena_description
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('serena_description', 'cmake_prefix_path')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/bin'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/lib/pkgconfig/serena_description.pc'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/lib/python3.8/site-packages'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.bash'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.zsh'
+[1.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/serena_description/share/colcon-core/packages/serena_description)
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/cmr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/cmr_msgs
+[1.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_geometry)
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry' for CMake module files
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry' for CMake config files
+[1.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_geometry', 'cmake_prefix_path')
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.dsv'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/hook/cmake_prefix_path.sh'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/bin'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib/pkgconfig/laser_geometry.pc'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/laser_geometry/lib/python3.8/site-packages'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.sh'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.bash'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.zsh'
+[1.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/laser_geometry/share/colcon-core/packages/laser_geometry)
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/robot_bringup
+[1.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pc_projection)
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection' for CMake module files
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection' for CMake config files
+[1.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc_projection', 'cmake_prefix_path')
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/hook/cmake_prefix_path.sh'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/bin'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib/pkgconfig/pc_projection.pc'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_projection/lib/python3.8/site-packages'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.sh'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.bash'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_projection/share/pc_projection/package.zsh'
+[1.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pc_projection/share/colcon-core/packages/pc_projection)
+[1.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[1.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/pointcloud_to_laserscan'
+[1.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.479s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(box_msgs)
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs' for CMake module files
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs' for CMake config files
+[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/box_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/box_msgs
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'cmake_prefix_path')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib'
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'ld_library_path_lib')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.sh'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/bin'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib/pkgconfig/box_msgs.pc'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages'
+[1.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'pythonpath')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.sh'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.bash'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.zsh'
+[1.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/box_msgs/share/colcon-core/packages/box_msgs)
+[1.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_pc)
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc' for CMake module files
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc' for CMake config files
+[1.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_pc', 'cmake_prefix_path')
+[1.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.dsv'
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/hook/cmake_prefix_path.sh'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib'
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/bin'
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib/pkgconfig/icp_pc.pc'
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/icp_pc/lib/python3.8/site-packages'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.sh'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.bash'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.zsh'
+[1.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/icp_pc/share/colcon-core/packages/icp_pc)
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serena_description)
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description' for CMake module files
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description' for CMake config files
+[1.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('serena_description', 'cmake_prefix_path')
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/serena_description/share/serena_description/hook/cmake_prefix_path.sh'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/bin'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/lib/pkgconfig/serena_description.pc'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/serena_description/lib/python3.8/site-packages'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.sh'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.bash'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/serena_description/share/serena_description/package.zsh'
+[1.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/serena_description/share/colcon-core/packages/serena_description)
+[1.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pointcloud_to_laserscan -- -j12 -l12
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup' for CMake module files
+[1.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/robot_bringup
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup' for CMake config files
+[1.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/bin'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib/python3.8/site-packages'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.sh'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.bash'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmr_msgs)
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs' for CMake module files
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/cmr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/cmr_msgs
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs' for CMake config files
+[1.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'cmake_prefix_path')
+[1.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.sh'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib'
+[1.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'ld_library_path_lib')
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.sh'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/bin'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib/pkgconfig/cmr_msgs.pc'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages'
+[1.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'pythonpath')
+[1.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.dsv'
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.sh'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.sh'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.bash'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.zsh'
+[1.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/cmr_msgs/share/colcon-core/packages/cmr_msgs)
+[1.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(box_msgs)
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs' for CMake module files
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs' for CMake config files
+[1.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'cmake_prefix_path')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.dsv'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/cmake_prefix_path.sh'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib'
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'ld_library_path_lib')
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.ps1'
+[1.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.dsv'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/ld_library_path_lib.sh'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/bin'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib/pkgconfig/box_msgs.pc'
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages'
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('box_msgs', 'pythonpath')
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/hook/pythonpath.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.bash'
+[1.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/box_msgs/share/box_msgs/package.zsh'
+[1.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/box_msgs/share/colcon-core/packages/box_msgs)
+[1.651s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivian/map_fuse/src/pc_fuse' with build type 'ament_cmake'
+[1.652s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivian/map_fuse/src/pc_fuse'
+[1.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.658s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup' for CMake module files
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup' for CMake config files
+[1.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/bin'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/robot_bringup/lib/python3.8/site-packages'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pc_fuse': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivian/map_fuse/install/box_msgs/lib:/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_fuse -- -j12 -l12
+[1.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/pointcloud_to_laserscan -- -j12 -l12
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pointcloud_to_laserscan
+[1.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmr_msgs)
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs' for CMake module files
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs' for CMake config files
+[1.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'cmake_prefix_path')
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.ps1'
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/cmake_prefix_path.sh'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib'
+[1.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'ld_library_path_lib')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/ld_library_path_lib.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib/pkgconfig/cmr_msgs.pc'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages'
+[1.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmr_msgs', 'pythonpath')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/hook/pythonpath.sh'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.ps1'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.sh'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.bash'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/cmr_msgs/share/cmr_msgs/package.zsh'
+[1.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/cmr_msgs/share/colcon-core/packages/cmr_msgs)
+[1.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan' for CMake module files
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan' for CMake config files
+[1.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/pointcloud_to_laserscan
+[1.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib'
+[1.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pc_fuse' returned '0': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivian/map_fuse/install/box_msgs/lib:/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/vivian/map_fuse/build/pc_fuse -- -j12 -l12
+[1.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivian/map_fuse/build/pc_fuse': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivian/map_fuse/install/box_msgs/lib:/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_fuse
+[1.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan' for CMake module files
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan' for CMake config files
+[1.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib'
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/bin'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_detection', 'pythonpath_develop')
+[1.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/build/person_detection/share/person_detection/hook/pythonpath_develop.ps1'
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/person_detection' returned '0': PYTHONPATH=/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vivian/map_fuse/install/person_detection --editable --build-directory /home/vivian/map_fuse/build/person_detection/build --no-deps install_data --install-dir /home/vivian/map_fuse/install/person_detection
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/build/person_detection/share/person_detection/hook/pythonpath_develop.dsv'
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/build/person_detection/share/person_detection/hook/pythonpath_develop.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection' for CMake module files
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection' for CMake config files
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection/lib'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection/bin'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection/lib/pkgconfig/person_detection.pc'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages'
+[1.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_detection', 'pythonpath')
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/pythonpath.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/pythonpath.dsv'
+[1.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/person_detection/share/person_detection/hook/pythonpath.sh'
+[1.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(person_detection)
+[1.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/person_detection/share/person_detection/package.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/person_detection/share/person_detection/package.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/person_detection/share/person_detection/package.sh'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/person_detection/share/person_detection/package.bash'
+[1.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/person_detection/share/person_detection/package.zsh'
+[1.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/person_detection/share/colcon-core/packages/person_detection)
+[1.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pc_fuse)
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse' for CMake module files
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivian/map_fuse/build/pc_fuse' returned '0': CMAKE_PREFIX_PATH=/home/vivian/map_fuse/install/box_msgs:/home/vivian/map_fuse/install/pointcloud_to_laserscan:/home/vivian/map_fuse/install/cmr_msgs:/home/vivian/map_fuse/install/pc_projection:/home/vivian/map_fuse/install/laser_geometry:/home/vivian/map_fuse/install/icp_pc:/home/vivian/map_fuse/install/serena_description:/home/vivian/map_fuse/install/map_fuse:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivian/map_fuse/install/box_msgs/lib:/home/vivian/map_fuse/install/pointcloud_to_laserscan/lib:/home/vivian/map_fuse/install/cmr_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/vivian/map_fuse/install/box_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/install/cmr_msgs/lib/python3.8/site-packages:/home/vivian/map_fuse/build/person_detection:/home/vivian/map_fuse/install/person_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/vivian/map_fuse/build/pc_fuse
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse' for CMake config files
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc_fuse', 'cmake_prefix_path')
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.sh'
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib'
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/bin'
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib/pkgconfig/pc_fuse.pc'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib/python3.8/site-packages'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.dsv'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.sh'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.bash'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.zsh'
+[1.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pc_fuse/share/colcon-core/packages/pc_fuse)
+[2.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pc_fuse)
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse' for CMake module files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse' for CMake config files
+[2.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc_fuse', 'cmake_prefix_path')
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/hook/cmake_prefix_path.sh'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/bin'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib/pkgconfig/pc_fuse.pc'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vivian/map_fuse/install/pc_fuse/lib/python3.8/site-packages'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.dsv'
+[2.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.sh'
+[2.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.bash'
+[2.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivian/map_fuse/install/pc_fuse/share/pc_fuse/package.zsh'
+[2.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivian/map_fuse/install/pc_fuse/share/colcon-core/packages/pc_fuse)
+[2.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.046s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.059s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.089s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivian/map_fuse/install/local_setup.ps1'
+[2.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivian/map_fuse/install/_local_setup_util_ps1.py'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivian/map_fuse/install/setup.ps1'
+[2.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivian/map_fuse/install/local_setup.sh'
+[2.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivian/map_fuse/install/_local_setup_util_sh.py'
+[2.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivian/map_fuse/install/setup.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivian/map_fuse/install/local_setup.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivian/map_fuse/install/setup.bash'
+[2.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivian/map_fuse/install/local_setup.zsh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivian/map_fuse/install/setup.zsh'

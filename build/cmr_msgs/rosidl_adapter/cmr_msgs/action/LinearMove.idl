@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cmr_msgs/action/LinearMove.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module cmr_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " goal definition")
+    struct LinearMove_Goal {
+      float point;
+    };
+    struct LinearMove_Result {
+      @verbatim (language="comment", text=
+        " result definition")
+      float result;
+    };
+    struct LinearMove_Feedback {
+      @verbatim (language="comment", text=
+        " feedback")
+      float current_pose;
+
+      builtin_interfaces::msg::Duration navigation_time;
+
+      float current;
+
+      int8 error;
+
+      int8 status_flag;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vivian/map_fuse/build/box_msgs/rosidl_generator_py/box_msgs/libbox_msgs__python.so" "TARGETS" "box_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,5 @@
+[console_scripts]
+detection_node = person_detection.detection_node
+person_box = person_detection.person_box:main
+sync = person_detection.sync:main
+

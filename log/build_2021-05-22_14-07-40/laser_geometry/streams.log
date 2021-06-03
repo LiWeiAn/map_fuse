@@ -1,0 +1,23 @@
+[0.102s] Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/laser_geometry -- -j12 -l12
+[0.582s] [100%] Built target laser2pc_node
+[0.591s] Invoked command in '/home/vivian/map_fuse/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/laser_geometry -- -j12 -l12
+[0.653s] Invoking command in '/home/vivian/map_fuse/build/laser_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/laser_geometry
+[0.671s] -- Install configuration: ""
+[0.676s] -- Execute custom install script
+[0.677s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/lib/laser_geometry/laser2pc_node
+[0.678s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/ament_index/resource_index/package_run_dependencies/laser_geometry
+[0.678s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/ament_index/resource_index/parent_prefix_path/laser_geometry
+[0.678s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.sh
+[0.678s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.dsv
+[0.678s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/environment/path.sh
+[0.679s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/environment/path.dsv
+[0.682s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/local_setup.bash
+[0.683s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/local_setup.sh
+[0.683s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/local_setup.zsh
+[0.683s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/local_setup.dsv
+[0.683s] -- Symlinking: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.dsv
+[0.693s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/ament_index/resource_index/packages/laser_geometry
+[0.695s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig.cmake
+[0.699s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+[0.700s] -- Up-to-date symlink: /home/vivian/map_fuse/install/laser_geometry/share/laser_geometry/package.xml
+[0.712s] Invoked command in '/home/vivian/map_fuse/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/laser_geometry

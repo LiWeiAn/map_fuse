@@ -1,0 +1,4 @@
+source;share/serena_description/local_setup.bash
+source;share/serena_description/local_setup.dsv
+source;share/serena_description/local_setup.sh
+source;share/serena_description/local_setup.zsh

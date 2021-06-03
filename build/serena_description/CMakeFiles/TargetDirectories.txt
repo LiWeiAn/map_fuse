@@ -1,0 +1,9 @@
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/install/strip.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/install/local.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/install.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/list_install_components.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/rebuild_cache.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/edit_cache.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/test.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/serena_description_uninstall.dir
+/home/vivian/map_fuse/build/serena_description/CMakeFiles/uninstall.dir

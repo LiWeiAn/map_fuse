@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>serena_description</name>
+  <version>1.0.0</version>
+  <description>
+		3D model for serena simulation and visualisation
+  </description>
+  <author>TODO</author>
+  <maintainer email="clionadh.martin@cm-robotics.com" />
+  <license>BSD</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+	<depend>urdf</depend>
+
+  <export>
+		<build_type>ament_cmake</build_type>
+  </export>
+</package>

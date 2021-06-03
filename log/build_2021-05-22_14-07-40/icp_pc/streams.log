@@ -1,0 +1,49 @@
+[0.097s] Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[0.566s] [ 25%] Built target icp_pc_node
+[0.566s] [ 50%] Built target icp_ex_node
+[0.567s] [ 75%] Built target transform_test_node
+[0.567s] [100%] Built target pcd_write_node
+[0.575s] Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[0.658s] Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc
+[0.685s] -- Install configuration: ""
+[0.686s] -- Execute custom install script
+[0.686s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_ex_node
+[0.686s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/pcd_write_node
+[0.686s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_pc_node
+[0.687s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/transform_test_node
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/launch/laser_4901.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4901.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4956.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5119.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5207.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_pc_save_full.pcd
+[0.688s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4901.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4956.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5119.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5207.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_cam.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_lidar.pcd
+[0.689s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/realsense_work.pcd
+[0.690s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/rs_pc_ex.pcd
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_cam.pcd
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_scan.pcd
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi.pcd
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi2.pcd
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/package_run_dependencies/icp_pc
+[0.691s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/parent_prefix_path/icp_pc
+[0.692s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.sh
+[0.692s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.dsv
+[0.692s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.sh
+[0.692s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.dsv
+[0.697s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.bash
+[0.699s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.sh
+[0.699s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.zsh
+[0.699s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.dsv
+[0.699s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.dsv
+[0.704s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/packages/icp_pc
+[0.706s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.706s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig.cmake
+[0.706s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig-version.cmake
+[0.706s] -- Up-to-date symlink: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.xml
+[0.769s] Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc

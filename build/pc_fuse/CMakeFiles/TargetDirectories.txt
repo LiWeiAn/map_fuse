@@ -1,0 +1,12 @@
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/install/strip.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/install/local.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/edit_cache.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/test.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/person_remove_node.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/install.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/list_install_components.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/rebuild_cache.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/pc_fuse_node.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/pc_fuse_uninstall.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/box_time_node.dir
+/home/vivian/map_fuse/build/pc_fuse/CMakeFiles/uninstall.dir

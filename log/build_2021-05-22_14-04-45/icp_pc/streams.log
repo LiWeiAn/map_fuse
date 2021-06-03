@@ -1,0 +1,79 @@
+[0.096s] Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[0.613s] [35m[1mScanning dependencies of target transform_test_node[0m
+[0.613s] [35m[1mScanning dependencies of target icp_pc_node[0m
+[0.613s] [35m[1mScanning dependencies of target pcd_write_node[0m
+[0.614s] [35m[1mScanning dependencies of target icp_ex_node[0m
+[0.614s] [ 12%] [32mBuilding CXX object CMakeFiles/transform_test_node.dir/src/transform_test.cpp.o[0m
+[0.614s] [ 37%] [32mBuilding CXX object CMakeFiles/icp_ex_node.dir/src/example_icp_pc.cpp.o[0m
+[0.614s] [ 37%] [32mBuilding CXX object CMakeFiles/icp_pc_node.dir/src/icp_pc.cpp.o[0m
+[0.614s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_write_node.dir/src/pcd_write.cpp.o[0m
+[11.557s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/transform_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.557s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/transform_test.cpp:57:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbox_ymin[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[11.558s]    57 |         float [01;35m[Kbox_ymin[m[K = 0.25420;
+[11.558s]       |               [01;35m[K^~~~~~~~[m[K
+[11.558s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/transform_test.cpp:59:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbox_ymax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[11.558s]    59 |         float [01;35m[Kbox_ymax[m[K = 0.98966;
+[11.558s]       |               [01;35m[K^~~~~~~~[m[K
+[11.558s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/transform_test.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.558s]    32 | main ([01;35m[Kint argc[m[K,
+[11.558s]       |       [01;35m[K~~~~^~~~[m[K
+[11.942s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/icp_pc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.942s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/icp_pc.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.943s]    31 | main ([01;35m[Kint argc[m[K,
+[11.943s]       |       [01;35m[K~~~~^~~~[m[K
+[12.009s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/example_icp_pc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[12.009s] [01m[K/home/vivian/map_fuse/src/icp_pc/src/example_icp_pc.cpp:29:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.010s]    29 | main ([01;35m[Kint argc[m[K,
+[12.010s]       |       [01;35m[K~~~~^~~~[m[K
+[20.490s] [ 62%] [32m[1mLinking CXX executable transform_test_node[0m
+[23.087s] [ 62%] Built target transform_test_node
+[26.433s] [ 75%] [32m[1mLinking CXX executable pcd_write_node[0m
+[26.581s] [ 87%] [32m[1mLinking CXX executable icp_ex_node[0m
+[27.133s] [100%] [32m[1mLinking CXX executable icp_pc_node[0m
+[29.675s] [100%] Built target pcd_write_node
+[30.877s] [100%] Built target icp_ex_node
+[31.791s] [100%] Built target icp_pc_node
+[31.807s] Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --build /home/vivian/map_fuse/build/icp_pc -- -j12 -l12
+[31.849s] Invoking command in '/home/vivian/map_fuse/build/icp_pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc
+[31.860s] -- Install configuration: ""
+[31.860s] -- Execute custom install script
+[31.860s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_ex_node
+[31.875s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/pcd_write_node
+[31.883s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/icp_pc_node
+[31.893s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/lib/icp_pc/transform_test_node
+[31.901s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/launch/laser_4901.pcd
+[31.909s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4901.pcd
+[31.923s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_4956.pcd
+[31.937s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5119.pcd
+[31.948s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_5207.pcd
+[31.960s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/cam_pc_save_full.pcd
+[31.973s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4901.pcd
+[31.980s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_4956.pcd
+[31.987s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5119.pcd
+[31.995s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/laser_5207.pcd
+[32.003s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save.pcd
+[32.011s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_cam.pcd
+[32.018s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/pc_save_lidar.pcd
+[32.025s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/realsense_work.pcd
+[32.034s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/rs_pc_ex.pcd
+[32.042s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_cam.pcd
+[32.056s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/serena_corner_scan.pcd
+[32.068s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi.pcd
+[32.075s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/params/vivi2.pcd
+[32.083s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/package_run_dependencies/icp_pc
+[32.097s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/parent_prefix_path/icp_pc
+[32.105s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.sh
+[32.113s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/ament_prefix_path.dsv
+[32.120s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.sh
+[32.128s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/environment/path.dsv
+[32.141s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.bash
+[32.155s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.sh
+[32.163s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.zsh
+[32.177s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/local_setup.dsv
+[32.191s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.dsv
+[32.199s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/ament_index/resource_index/packages/icp_pc
+[32.207s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.215s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig.cmake
+[32.223s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/cmake/icp_pcConfig-version.cmake
+[32.230s] -- Symlinking: /home/vivian/map_fuse/install/icp_pc/share/icp_pc/package.xml
+[32.242s] Invoked command in '/home/vivian/map_fuse/build/icp_pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivian/map_fuse/install/person_detection:/opt/ros/foxy /usr/bin/cmake --install /home/vivian/map_fuse/build/icp_pc

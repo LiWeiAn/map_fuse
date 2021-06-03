@@ -1,0 +1,11 @@
+# PickUp
+# DropOff
+# Docking
+# AtoB
+# Door
+# ??
+#
+
+std_msgs/Header header
+string destination_type
+geometry_msgs/Pose pose

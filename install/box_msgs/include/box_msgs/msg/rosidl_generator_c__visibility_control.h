@@ -1,0 +1,1 @@
+/home/vivian/map_fuse/build/box_msgs/rosidl_generator_c/box_msgs/msg/rosidl_generator_c__visibility_control.h
